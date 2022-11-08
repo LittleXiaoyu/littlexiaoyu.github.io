@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>轮播图</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./my-minireset.css">
+    <style>
+        .stage {
+            width: 300px;
+            /* height: 300px; */
+            margin: 50px auto;
+            position: relative;
+            outline: 2px solid black;
+
+        }
+
+        .stage .imgs img:nth-child(1) {
+            position: relative;
+        }
+
+        .stage .imgs img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+
+        }
+
+        .stage ul.dots {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            bottom: 0;
+            left: calc(50% - 60px);
+            z-index: 9999;
+        }
+
+        .stage ul.dots li {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: block;
+            background-color: antiquewhite;
+        }
+
+        .stage ul.dots li.active {
+            background-color: rgb(218, 128, 11);
+        }
+
+        .stage .lr {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            color: aliceblue;
+            top: calc(50% - 10px);
+
+        }
+
+        .stage .lr div:nth-child(1) {
+            left: 0;
+        }
+
+        .stage .lr div:nth-child(2) {
+            right: 0;
+        }
+    </style>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+            p{
+                display: flex;
+                justify-content: center;
+            }
+        .stage2 {
+            width: 600px;
+            height: 400px;
+            outline: 5px solid black;
+            margin: 40px auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .stage2 .imgs {
+            /* width: 375px; */
+            height: 400px;
+            display: flex;
+            position: absolute;
+            /* transition: all 0.5s; */
+            left: -600px;
+        }
+
+        .stage2 .imgs img {
+            display: block;
+            width: 600px;
+            height: 400px;
+
+        }
+
+        .stage2 ul.dots {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            bottom: 0;
+            z-index: 99999;
+            left: calc(50% - 50px);
+        }
+
+        .stage2 ul.dots li {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: block;
+            background-color: antiquewhite;
+        }
+
+        .stage2 ul.dots .active {
+            background-color: rgb(254, 153, 1);
+        }
+
+        .stage2 .lr {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            color: aliceblue;
+            top: calc(50% - 10px);
+        }
+
+        .stage2 .lr div:nth-child(1) {
+            left: 0;
+        }
+
+        .stage2 .lr div:nth-child(2) {
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stage">
+        <div class="imgs">
+            <img src="./轮播图pic/1.jpg" alt="">
+            <img src="./轮播图pic/2.jpg" alt="">
+            <img src="./轮播图pic/3.jpg" alt="">
+            <img src="./轮播图pic/4.jpg" alt="">
+            <img src="./轮播图pic/5.jpg" alt="">
+            <img src="./轮播图pic/6.jpg" alt="">
+
+        </div>
+        <ul class="dots">
+
+        </ul>
+        <div class="lr">
+            <div>&lt</div>
+            <div>&gt</div>
+        </div>
+    </div>
+    <p>jQ轮播图</p>
+
+    <div class="stage2">
+        <div class="imgs">
+            <img src="./轮播图pic/6.jpg" alt="">
+            <img src="./轮播图pic/1.jpg" alt="">
+            <img src="./轮播图pic/2.jpg" alt="">
+            <img src="./轮播图pic/3.jpg" alt="">
+            <img src="./轮播图pic/4.jpg" alt="">
+            <img src="./轮播图pic/5.jpg" alt="">
+            <img src="./轮播图pic/6.jpg" alt="">
+            <img src="./轮播图pic/1.jpg" alt="">
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="lr">
+            <div class="pro">&lt</div>
+            <div class="next">&gt</div>
+        </div>
+    </div>
+    <p>jQ无缝轮播图</p>
+    <script>
+
+        $('.stage').find('.imgs img').each(function () {
+            $('.stage .dots').append("<li></li>")
+        })
+        //初始化
+        $(".stage .imgs img").hide().css({ position: "absolute" }).eq(0).show().css({ position: "relative" });
+        $(".stage .dots li").eq(0).addClass('active')
+        var cur = 0;
+        function show(n) {
+            $(".stage .imgs img").fadeOut().css({ position: "absolute" }).eq(n).fadeIn().css({ position: "relative" });
+            $(".stage .dots li").eq(n).addClass("active").siblings().removeClass("active")
+        }
+        $(".stage .dots li").click(function () {
+            show($(this).index())
+        })
+        show(cur);
+        $(".stage").find('.lr div').eq(0).click(function () {
+            cur--;
+            if (cur < 0) {
+                cur = $(".stage .imgs img").length - 1
+            }
+            show(cur);
+        })
+        $(".stage").find('.lr div').eq(1).click(function () {
+            cur++;
+            if (cur > $(".stage .imgs img").length - 1) {
+                cur = 0;
+            }
+            show(cur);
+        })
+        timer = setInterval(function () {
+            cur++;
+            if (cur > $(".stage .imgs img").length - 1) {
+                cur = 0;
+            }
+            show(cur);
+
+        }, 1500)
+    </script>
+
+    <script>
+        var index = 1;
+        var timer = null;
+        var size = $('.stage2 .imgs').children().length;//图片数量
+        var picWidth = $('.stage2 img').width();
+        //鼠标移上去定时暂停
+        $('.stage2').mouseover(function () {
+            clearInterval(timer);
+        });
+        //鼠标移走再次开始
+        $('.stage2').mouseleave(function () {
+            autoSlide();
+        });
+        // $('.imgs').mouseleave();
+        function changeImg() {
+            var slideWidth = -1 * picWidth * index;//移动距离
+            $('.stage2 .imgs').animate({
+                'left': slideWidth + 'px'
+            }, 500)
+            if (index >= size - 1) {
+                $('.stage2 .imgs').animate({ 'left': -picWidth + 'px' }, 0);
+                index = 1;
+            }
+            if (index < 1) {
+                $('.stage2 .imgs').animate({ 'left': -(size - 2) * picWidth + 'px' }, 0);
+                index = size - 2;
+            }
+        };
+        function changeDots() {
+            $('.stage2 .dots li').eq(index - 1).addClass("active").siblings().removeClass('active');
+            console.log($('.stage2 .dots li').eq(index - 1));
+        }
+        $('.stage2 .dots li').click(function (event) {
+            console.log(event.target);
+            var target = event.target;
+            index = $(target).index() + 1;
+            changeImg();
+            changeDots();
+        })
+        $('.stage2 .next').click(function () {
+            index++;
+            changeImg();
+            changeDots();
+        })
+        $('.stage2 .pro').click(function () {
+            index--;
+            changeImg();
+            changeDots();
+        })
+        function autoSlide() {
+            timer = setInterval(function () {
+                index++;
+                changeImg();
+                changeDots();
+            }, 1500)
+        };
+    </script>
+</body>
+
+</html>

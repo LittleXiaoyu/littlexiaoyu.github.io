@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>按钮</title>
+</head>
+<body>
+    <div class="btn_1">
+        <div class="btn1">Grow</div>
+        <div class="btn2">Shrink</div>
+        <div class="btn3">Pulse</div>
+        <div class="btn4">Pulse Grow</div>
+        <div class="btn5">Pulse Shrink</div>
+        <div class="btn6">Push</div>
+        <div class="btn7">Pop</div>
+    </div>
+    <div class="btn_2">
+        <div class="btn1">Bounce In</div>
+        <div class="btn2">Bounce Out</div>
+        <div class="btn3">Rotate</div>
+        <div class="btn4">Grow Rotate</div>
+        <div class="btn5">Float</div>
+        <div class="btn6">Sink</div>
+        <div class="btn7">Bob</div>
+        <div class="btn8">Hang</div>
+    </div>
+    <div class="btn_3">
+        <div class="btn1">Skew</div>
+        <div class="btn2">Skew Forward</div>
+        <div class="btn3">Skew Backward</div>
+        <div class="btn4">Wobble Horizontal</div>
+        <div class="btn5">Wobble Vertical</div>
+        <div class="btn6">Wobble To Bottom Right</div>
+        <div class="btn7">Wobble To Top Right</div>
+      
+    </div>
+    
+    <style>
+        .btn_1{
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;   
+        }
+        .btn_1 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
+            /* width: 80px; */
+            /* height: 60px; */
+            margin: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .btn_1 .btn1:hover{
+            transform: scale(1.2);
+        }
+        .btn_1 .btn2:hover{
+            transform: scale(0.8);
+        }
+        .btn_1 .btn3:hover{
+           animation-name: b3;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes b3 {
+            from{
+                transform: scale(0.9);
+            }
+            to{
+                transform: scale(1.1);
+            }
+        }
+        .btn_1 .btn4:hover{
+           animation-name: b4;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes b4 {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(1.2);
+            }
+        }
+        .btn_1 .btn5:hover{
+           animation-name: b5;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes b5 {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(0.8);
+            }
+        }
+        .btn_1 .btn6:hover{
+           animation-name: b6;
+            animation-duration: 0.5s;
+            /* animation-iteration-count: 1; */
+        }
+        @keyframes b6 {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(0.8);
+            }
+        }
+        .btn_1 .btn7:hover{
+           animation-name: b7;
+            animation-duration: 0.2s;
+            animation-iteration-count: 1;
+        }
+        @keyframes b7 {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(1.2);
+            }
+        }
+    </style>
+    <style>
+        .btn_2{
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;   
+        }
+        .btn_2 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+            /* width: 80px; */
+            /* height: 60px; */
+            box-sizing: border-box;
+            padding: 20px;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn_2 .btn1:hover{
+            animation-name: b21;
+            animation-duration: 0.3s;
+            animation-iteration-count: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b21 {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(1.1);
+            }
+        }
+        .btn_2 .btn2:hover{
+            animation-name: b22;
+            animation-duration: 0.3s;
+            animation-iteration-count: 2;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b22 {
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(0.8);
+            }
+        }
+        .btn_2 .btn3:hover{
+            animation-name: b23;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b23 {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(10deg);
+            }
+        }
+        .btn_2 .btn4:hover{
+            animation-name: b24;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b24 {
+            from{
+                transform: rotate(0deg) scale(1);
+            }
+            to{
+                transform: rotate(10deg) scale(1.2);
+            }
+        }
+        .btn_2 .btn5:hover{
+            animation-name: b25;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b25 {
+            from{
+             transform: translateY(0);
+            }
+            to{
+                transform: translateY(-10px);
+            }
+        }
+        .btn_2 .btn6:hover{
+            animation-name: b26;
+            animation-duration: 0.3s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b26 {
+            from{
+             transform: translateY(0);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+        .btn_2 .btn7:hover{
+            animation-name: b27;
+            animation-duration: 0.3s;
+            /* animation-fill-mode: forwards; */
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes b27 {
+            from{
+             transform: translateY(-5px);
+            }
+            to{
+                transform: translateY(-10px);
+            }
+        }
+        .btn_2 .btn8:hover{
+            animation-name: b28;
+            animation-duration: 0.3s;
+            /* animation-fill-mode: forwards; */
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes b28 {
+            from{
+             transform: translateY(5px);
+            }
+            to{
+                transform: translateY(10px);
+            }
+        }
+    </style>
+    <style>
+         .btn_3{
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;   
+            
+        }
+        .btn_3 .btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
+            /* width: 80px; */
+            /* height: 60px; */
+            margin: 0 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: aquamarine;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn_3 .btn1:hover{
+            animation-duration: 0.3s;
+            animation-name: b31;
+            animation-fill-mode: forwards;
+        }
+        @keyframes b31 {
+            from{
+                transform:skewX(0deg);
+            }
+            to{
+                transform:skewX(-15deg);
+            }
+        }
+        .btn_3 .btn2:hover{
+            animation-duration: 0.3s;
+            animation-name: b32;
+            animation-fill-mode: forwards;
+            transform-origin: bottom;
+        }
+        @keyframes b32 {
+            from{
+                transform:skewX(0deg);
+            }
+            to{
+                transform:skewX(-10deg);
+            }
+        }
+        .btn_3 .btn3:hover{
+            animation-duration: 0.3s;
+            animation-name: b33;
+            animation-fill-mode: forwards;
+            transform-origin: bottom;
+        }
+        @keyframes b33 {
+            from{
+                transform:skewX(0deg);
+            }
+            to{
+                transform:skewX(10deg);
+            }
+        }
+        .btn_3 .btn4:hover{
+            animation-duration: 0.3s;
+            animation-name: b34;
+            animation-fill-mode: backwards;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+        }
+        @keyframes b34 {
+            from{
+                transform: translateX(10px);
+            }
+            to{
+                transform: translateX(-10px);
+            }
+        }
+        .btn_3 .btn5:hover{
+            animation-duration: 0.3s;
+            animation-name: b35;
+            animation-fill-mode: backwards;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+        }
+        @keyframes b35 {
+            from{
+                transform: translateY(10px);
+            }
+            to{
+                transform: translateY(-10px);
+            }
+        }
+        .btn_3 .btn6:hover{
+            animation-duration: 0.3s;
+            animation-name: b36;
+            animation-fill-mode: backwards;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+        }
+        @keyframes b36 {
+            from{
+                transform: translateX(-10px)  translateY(-10px);
+            }
+            to{
+                transform: translateX(10px) translateY(10px);
+            }
+        }
+        .btn_3 .btn7:hover{
+            animation-duration: 0.3s;
+            animation-name: b37;
+            animation-fill-mode: backwards;
+            animation-iteration-count: 3;
+            animation-direction: alternate;
+        }
+        @keyframes b37 {
+            from{
+                transform: translateX(10px)  translateY(-10px);
+                
+            }
+            to{
+                transform: translateX(-10px) translateY(10px);
+            }
+        }
+    </style>
+    <div class="big"></div>
+    <style>
+        .big{
+            width: 20px;
+            height: 50px;
+            /* border-radius: 20%; */
+            background-color: black;
+            border-left: 50px solid yellow;
+            border-right:50px solid blue;
+            border-bottom: 50px solid green;
+        }
+    </style>
+</body>
+</html>

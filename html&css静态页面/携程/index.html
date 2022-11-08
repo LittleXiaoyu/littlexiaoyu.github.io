@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>携程</title>
+    <link rel="stylesheet" href="./my-minireset.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .mian{
+            width: 300px;
+            /* height: 500px; */
+            /* background-color: aliceblue; */
+            margin: 0 auto;
+            padding: 0 10px;
+            position: relative;
+            /* border: 1px solid RED; */
+          
+        }
+        .mian .title{
+            border: 1px solid blue;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .mian .title span{
+            color: rgb(100, 98, 98);
+        }
+        .mian .title i{
+            color: rgb(99, 97, 97);
+            margin-left: 10px;
+          
+        }
+        .mian .list{
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            /* align-items: space-between; */
+            width: 100%;
+        }
+        .mian .list ul li{
+            height: 70px;
+            margin: 1px;
+            text-align: center;
+        }
+        .mian .list ul li img{
+            width: 40px;
+          }
+          .mian .list ul li p{
+            font-size: 10px;
+           
+          }
+        .list ul:nth-child(1) li:nth-child(1){
+            border-radius: 10px 0 0 0;
+            color: white;
+            background-color: rgb(213, 82, 11);
+        }
+        .list ul:nth-child(2) li:nth-child(1){
+            color: white;
+            background-color: rgb(11, 102, 213);
+        }
+        .list ul:nth-child(3) li:nth-child(1){
+            color: white;
+            background-color: rgb(11, 102, 213);
+        }
+        .list ul:nth-child(4) li:nth-child(1){
+            color: white;
+            background-color: rgb(11, 213, 102);
+        }
+        .list ul:nth-child(5) li:nth-child(1){
+            border-radius: 0 10px 0 0;
+            color: white;
+            background-color: rgb(213, 132, 11);
+        }
+        .list ul:nth-child(1) li{
+            background-color: antiquewhite;
+        }
+        .list ul:nth-child(2) li{
+            background-color: rgb(215, 242, 250);
+        }
+        .list ul:nth-child(3) li{
+            background-color: rgb(215, 242, 250);
+        }
+        .list ul:nth-child(4) li{
+            background-color: rgb(215, 242, 250);
+        }
+        .list ul:nth-child(5) li{
+            background-color: rgb(250, 233, 215);
+        }
+        .list ul:nth-child(1) li:nth-child(3){
+            border-radius: 0 0 0 10px;
+            background-color: antiquewhite;
+        }
+        .list ul:nth-child(5) li:nth-child(3){
+            border-radius: 0 0 10px 0;
+            background-color: rgb(250, 233, 215);
+        }
+        .mian .mid{
+            overflow: hidden;
+        }
+        .mian .mid .left{
+            width: 50%;
+            float: left;
+        }
+        .mian .mid .left  p{
+            /* line-height: 20px; */
+            display: flex;
+            color: rgb(214, 7, 7);
+            font-size: 8px;
+        }
+        .mian .mid .left  p img{
+            width: 60px;
+            height: 20px;
+        }
+        .mian .mid .left div.img{
+            height: 100px;
+            width: 140px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(./Images/1659750281.jpg);
+           border-radius: 10px;
+        }
+        .mian .mid .right{
+            float: left;
+            width: 50%;
+        }
+        
+        .mian .mid .right ul:nth-child(1)  p{
+            width: 100%;
+            display: flex;
+            /* float: left; */
+        }
+        .mian .mid .right ul:nth-child(1)  p img{
+            width: 70px;
+            height: 20px;
+            margin-left: 10px;
+            /* line-height: 22px; */
+        }
+        .mian .mid .right ul:nth-child(1)  p span{
+            padding: 0 5px;
+            font-size: 10px;
+            /* line-height: 22px; */
+            color: rgb(255, 102, 0);
+            background-color: rgb(255, 246, 240);
+        }
+        .mian .mid .right ul li{
+            height: 100px;
+            width: 70px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            background-image: url(./Images/1659750285.jpg);
+        }
+        .mian .mid .right ul{
+            height: 100px;
+            
+        }
+        .mian .mid .right ul li:nth-child(2){
+            height: 100px;
+            width: 70px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            float: right;
+            background-image: url(./Images/1659750286.webp);
+        }
+        .mian .low {
+
+            margin-top: 20px;
+        }
+        .mian .low img{
+        margin-right:20px;
+        border-radius: 10px;
+        }
+        .mian .foot .from{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+       
+        .mian .foot .from .dianhua{
+            border-radius: 3px;
+            padding: 3px 10px;
+            font-size: 14px;
+            
+            color: rgb(80, 81, 83);
+            border: 1px solid rgb(139, 137, 137);
+        }
+        .mian .foot .from .load{
+            border-radius: 3px;
+            padding: 0 10px;
+            font-size: 14px;
+            padding: 3px 10px;
+            color: rgb(80, 81, 83);
+            border: 1px solid rgb(139, 137, 137);
+        }
+        .mian .foot .infor{
+            /* position: relative; */
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .mian .foot .infor p{
+            color: rgb(80, 81, 83);
+            margin-bottom: 20px;
+        }
+        .mian .foot .flot  {
+            width: 300px;
+            background-color: white;
+      position: fixed;
+    
+      bottom: 0;
+     
+
+        }
+        .mian .foot .flot ul li:nth-child(1) p{
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            background-image: url(./Images/1659750288.png);
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+        .mian .foot .flot ul li:nth-child(1) h5{
+            font-size: 12px;
+        }
+        .mian .foot .flot ul li:nth-child(2) p{
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./Images/1659750288.png);
+            background-position: 0 -30px;
+        }
+        .mian .foot .flot ul li:nth-child(2) h5{
+            font-size: 12px;
+        }
+        .mian .foot .flot ul li:nth-child(3) p{
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./Images/1659750288.png);
+            background-position: 0 -60px;
+        }
+        .mian .foot .flot ul li:nth-child(3) h5{
+            font-size: 12px;
+        }
+        .mian .foot .flot ul li:nth-child(4) p{
+            width: 30px;
+            height: 30px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./Images/1659750288.png);
+            background-position: 0 -90px;
+        }
+        .mian .foot .flot ul li:nth-child(4) h5{
+            font-size: 12px;
+        }
+        .mian .foot .flot ul{
+            /* position: fixed; */
+            bottom: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+      
+        .mian .day {
+            width: 100px;
+            height: 100px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./Images/1659750289.png);
+            position: fixed;
+            bottom: 50px;
+            right: 0px;
+
+        }
+        .mian .foot .aa{
+            display: flex;
+            justify-content: center;
+            color: rgb(80, 79, 78);
+            font-size: 12px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="mian">
+       
+
+        <section class="title">
+            <i class="fa fa-search"></i>
+            <span>搜索:目的地/酒店/景点/航班号</span>
+        </section>
+        <div class="list">
+            <ul>
+                <li><img src="./Images/1659750240.png" alt="">
+                    <p>酒店</p>
+                </li>
+                <li><img src="./Images/1659750241.png" alt="">
+                    <p>民宿/客栈</p>
+                </li>
+                <li><img src="./Images/1659750242.png" alt="">
+                    <p>特价/爆款</p>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="./Images/1659750243.png" alt="">
+                    <p>机票</p>
+                </li>
+                <li><img src="./Images/1659750244.png" alt="">
+                    <p>机+酒</p>
+                </li>
+                <li><img src="./Images/1659750245.png" alt="">
+                    <p>接送机/包车</p>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="./Images/1659750246.png" alt="">
+                    <p>火车票</p>
+                </li>
+                <li><img src="./Images/1659750247.png" alt="">
+                    <p>汽车/船票</p>
+                </li>
+                <li><img src="./Images/1659750248.png" alt="">
+                    <p>租车</p>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="./Images/1659750249.png" alt="">
+                    <p>旅游</p>
+                </li>
+                <li><img src="./Images/1659750250.png" alt="">
+                    <p>门票/活动</p>
+                </li>
+                <li><img src="./Images/1659750251.png" alt="">
+                    <p>周边游</p>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="./Images/1659750252.png" alt="">
+                    <p>攻略/景点</p>
+                </li>
+                <li><img src="./Images/1659750253.png" alt="">
+                    <p>美食</p>
+                </li>
+                <li><img src="./Images/1659750254.png" alt="">
+                    <p>购物/免税</p>
+                </li>
+            </ul>
+        </div>
+        <div class="mid">
+            <div class="left">
+                <p><img src="./Images/1659750280.png" alt="">特价好货直播中</p>
+                <div class="img" ><span style="background-color: rgb(250, 144, 77); border-radius: 10px 0 10px 0; color:rgb(165, 91, 17)">酒店套餐</span> </div>
+                <span style="color:rgb(235, 127, 20) ;">¥1199</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <p><img src="./Images/1659750284.png" alt=""><span>权威排行榜</span></p>
+                    <li><span style="background-color: rgb(250, 144, 77); border-radius: 10px 0 10px 0; color:rgb(165, 91, 17)" >上海</span></li>
+                    <li><span style="background-color: rgb(250, 144, 77); border-radius: 10px 0 10px 0; color:rgb(165, 91, 17)" >上海</span></li>
+                    
+                    <p style="font-size: 14px;">上海10大...</p>
+                    <!-- <p>上海亲子...</p> -->
+                </ul>
+            </div>
+        </div>
+        <div class="low">
+            <img src="./Images/1659750287.jpg" alt="">
+            
+        </div>
+        <footer class="foot">
+           <div class="from">
+            <div class="dianhua">
+                <i class="fa fa-phone"></i>
+                <span>电话预订</span>
+            </div>
+            <div class="load">
+                <i class="fa fa-download"></i>
+                <span>下载携程</span>
+            </div>
+            
+           </div>
+           <div class="infor"><p>网站地图</p>
+            <p>电脑版</p></div>
+            <div class="aa" style="height: 100px;">©2022携程旅行 沪ICP备08023580号</div>
+           <div class="flot">
+            <ul>
+                <li><p></p>
+                    <h5>首页</h5></li>
+                 <li><p></p>
+                    <h5>社区</h5></li>
+                  <li><p></p>
+                     <h5>信息</h5></li>
+                  <li><p></p>
+                    <h5>我的</h5></li>
+            </ul>
+           </div>
+          
+        </footer>
+        <div class="day"></div>
+    </div>
+</body>
+</html>

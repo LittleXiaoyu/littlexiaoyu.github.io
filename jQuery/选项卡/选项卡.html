@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQ选项卡</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="box" class="box">
+        <div class="btn">
+            <button>tab #1</button>
+            <button>tab #2</button>
+            <button>tab #3</button>
+        </div>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis exercitationem minima quisquam ex earum sapiente, debitis ipsum quidem optio rerum!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim veritatis nostrum, blanditiis, quia maiores nisi. Expedita cupiditate similique magnam, adipisci nesciunt, laborum rem! Excepturi, ad.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, ad esse. Hic at officiis fuga mollitia quod.</li>
+        </ul>
+    </div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            margin: 0 auto;
+            width: 500px;
+            margin-top: 20px;
+        }
+       
+        .box .btn button{
+            border: none;
+            padding: 20px 30px;
+            border-radius: 10px 10px 0 0;
+            /* margin-right: 10px; */
+            box-shadow: 5px 5px 3px rgba(47, 47, 47, 0.373);
+        }
+        .box ul{
+            width: 400px;
+            height: 150px;
+            position: relative;
+           list-style: none;
+            
+        }
+        .box ul li{
+            width: 100%;
+            background-color: bisque;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            padding: 30px 20px;
+            box-sizing: border-box;
+            border-radius: 0 10px 10px 10px;
+            box-shadow: 5px 5px 3px rgba(47, 47, 47, 0.373);
+            transition: all .5s;
+        }
+        .active{
+            background-color: bisque;
+        }
+    </style>
+    <script>
+       //初始化
+       $('ul li').hide().eq(0).show();
+        $('.btn button').click(function () {
+            // console.log(this);
+            console.log($(this).index());
+            $(this).addClass('active').siblings().removeClass('active')
+            $('ul li').hide().eq($(this).index()).show()
+        })
+    </script>
+</body>
+</html>

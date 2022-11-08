@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选项卡</title>
+</head>
+<body>
+    <div id="box1" class="box1">
+        <div class="btn">
+            <button>Mercury</button>
+            <button>Venus</button>
+            <button>Earth</button>
+            <button>Mars</button>
+        </div>
+        <ul>
+            <li>
+                <p>Mercury is the smallest and innermost planet in the Solar System.Mercury is the smallest and innermost planet in the Solar System.</p>
+                <p>Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System.</p>
+                <p>It is named after the Roman deity Mercury, the messenger of the gods.</p>
+            </li>
+            <li>
+                <p>Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty.</p>
+                <p>Venus orbits the Sun every 224.7 Earth days.</p>
+                <p>As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and, rarely, is visible to the naked eye in broad daylight.</p>
+
+            </li>
+            <li>
+                <p>Earth is the third planet from the Sun.</p>
+                <p>Earth orbits around the Sun in 365.256 days, a period known as an Earth sidereal year. During this time, Earth rotates about its axis about 366.256 times.</p>
+                <p>Earth's axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth.</p>
+
+            </li>
+            <li>
+                <p>Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury.</p>
+                <p>In English, Mars carries a name of the Roman god of war and is often referred to as the 'Red Planet'. The latter refers to the effect of the iron oxide prevalent on Mars' surface.</p>
+                <p>Mars is a terrestrial planet with a thin atmosphere.</p>
+
+            </li>
+        </ul>
+    </div>
+
+    <div id="box2" class="box2">
+        <div class="btn2">
+            <button>tab #1</button>
+            <button>tab #2</button>
+            <button>tab #3</button>
+        </div>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis exercitationem minima quisquam ex earum sapiente, debitis ipsum quidem optio rerum!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim veritatis nostrum, blanditiis, quia maiores nisi. Expedita cupiditate similique magnam, adipisci nesciunt, laborum rem! Excepturi, ad.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, ad esse. Hic at officiis fuga mollitia quod.</li>
+        </ul>
+    </div>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box1{
+            width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px 0;
+
+        }
+        .box1 .btn{
+            width: 100%;
+            margin-bottom: 20px;
+            /* margin: 0 auto; */
+        }
+        .box1 .btn button{
+            border-radius: 5px;
+            padding: 5px;
+            margin: 0 15px;
+            color: rgb(126, 131, 131);
+            box-shadow: 5px 5px 5px;
+            border: none;
+        }
+        .box1 ul{
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            margin: 0;
+            list-style: none;
+            padding: 0;
+        }
+        .box1 ul li{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+          text-align: left;
+            top: 0;
+            transition: all 1s;
+            box-sizing: border-box;
+            padding: 20px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            color: rgb(23, 25, 25);
+            box-shadow: 5px 5px 5px ;
+        }
+        .box1 ul li:first-child{
+           position: relative;
+           
+        }
+    </style>
+
+<style>
+    .box2{
+        margin: 0 auto;
+        width: 500px;
+       
+    }
+    .box2 .btn2 button{
+        border: none;
+        padding: 20px 30px;
+        border-radius: 10px 10px 0 0;
+        box-shadow: 5px 5px 3px rgba(47, 47, 47, 0.373);
+    }
+    .box2 ul{
+        width: 100%;
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .box2 ul li{
+
+        width: 100%;
+        background-color: bisque;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        padding: 30px 20px 30px 20px;
+        box-sizing: border-box;
+        border-radius: 0 10px 10px 10px;
+        box-shadow: 5px 5px 3px rgba(47, 47, 47, 0.373);
+    }
+    .box2 ul li:first-child{
+       position: relative;
+    }
+</style>
+    <script>
+        var boxBig1 = document.getElementById('box1');
+        var btnN = boxBig1.querySelector('.btn').getElementsByTagName('button');
+        var card = boxBig1.getElementsByTagName('ul')[0].getElementsByTagName('li');
+        function showDx(n) {
+            for (var i = 0; i < card.length; i++) {
+                if(i===n){
+                    card[i].style.opacity='1';
+                    btnN[i].style.background=' rgb(240, 198, 134)';
+                }else {
+                    card[i].style.opacity='0';
+                    btnN[i].style.background=' rgb(198, 205, 205)';
+                }
+            }
+            return n;
+        }
+        showDx(0);
+        for (let i = 0; i < btnN.length; i++) {
+           btnN[i].title=i;
+            btnN[i].onclick= function () {
+                showDx(Number(this.title));
+            }
+        }
+    </script>
+
+<script>
+    var boxBig2 = document.getElementById('box2');
+    var btnN2 = boxBig2.querySelector('.btn2').getElementsByTagName('button');
+    var card2 = boxBig2.getElementsByTagName('ul')[0].getElementsByTagName('li');
+    function showDx2(n) {
+        for (var i = 0; i < card2.length; i++) {
+            if(i===n){
+                card2[i].style.opacity='1';
+                btnN2[i].style.background=' bisque';
+            }else {
+                card2[i].style.opacity='0';
+                btnN2[i].style.background=' rgb(198, 205, 205)';
+            }
+            
+        }
+        return n;
+    }
+    showDx2(0);
+    for (let i = 0; i < btnN2.length; i++) {
+       btnN2[i].title=i;
+        btnN2[i].onclick= function () {
+            showDx2(Number(this.title));
+        }
+    }
+</script>
+</body>
+</html>

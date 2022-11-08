@@ -1,0 +1,2703 @@
+{
+    "code": 0,
+    "data": {
+        "tabs": [
+            {
+                "name": "推荐",
+                "page_type": "home",
+                "page_id": 0,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "智能",
+                "page_type": "activity",
+                "page_id": 10288,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "电视",
+                "page_type": "activity",
+                "page_id": 19071,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "家电",
+                "page_type": "activity",
+                "page_id": 18642,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "笔记本",
+                "page_type": "activity",
+                "page_id": 13176,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            }
+        ],
+        "data": {
+            "header": {
+                "spm_b": "cms_10288"
+            },
+            "sections": [
+                {
+                    "view_type": "gallery",
+                    "stat": "gallery",
+                    "block_id": "3469969",
+                    "body": {
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 360,
+                                "material_id": 16682,
+                                "ad_position_id": 3204,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0b2bb13c396cc6205dd91da3a91a275a.jpg?f=webp&w=1080&h=540&bg=A8D4D5",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0b2bb13c396cc6205dd91da3a91a275a.jpg?f=webp&w=1080&h=540&bg=A8D4D5",
+                                "img_url_color": "#A8D4D5",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=12834",
+                                    "log_code": "3110288wapactivitygallery001002#t=ad&act=other&page=activity&page_id=10288&bid=3469969.1&adp=3204&adm=16682",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469969.1",
+                                        "spm_params": "{\"component\":\"gallery\",\"component_name\":\"\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248\",\"img\":257306}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "activity_code": "crypt-866ee03cfb779a74272b9a5382afc08d",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "type": "image",
+                                "ad_level_id": 0
+                            },
+                            {
+                                "w": 720,
+                                "h": 360,
+                                "material_id": 23990,
+                                "ad_position_id": 1003,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/37bd342303515c7a1a54681599e319a1.jpg?f=webp&w=1080&h=540&bg=56B6A8",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/37bd342303515c7a1a54681599e319a1.jpg?f=webp&w=1080&h=540&bg=56B6A8",
+                                "img_url_color": "#56B6A8",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=17145",
+                                    "log_code": "3110288wapactivitygallery002002#t=ad&act=other&page=activity&page_id=10288&bid=3469969.2&adp=1003&adm=23990",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469969.2",
+                                        "spm_params": "{\"component\":\"gallery\",\"component_name\":\"\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248\",\"img\":412832}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "activity_code": "crypt-630718f3835a15580d2a72228d2a7e4b",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "type": "image",
+                                "ad_level_id": 0
+                            },
+                            {
+                                "w": 720,
+                                "h": 360,
+                                "material_id": 23022,
+                                "ad_position_id": 1004,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb4a8b7d9e77567c7330776a866e717f.jpg?f=webp&w=1080&h=540&bg=CEDAE8",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb4a8b7d9e77567c7330776a866e717f.jpg?f=webp&w=1080&h=540&bg=CEDAE8",
+                                "img_url_color": "#CEDAE8",
+                                "action": {
+                                    "type": "url",
+                                    "path": "https://m.mi.com/crowdfunding/proddetail/1000288",
+                                    "log_code": "3110288wapactivitygallery003002#t=ad&act=webview&page=activity&page_id=10288&bid=3469969.3&adp=1004&adm=23022",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469969.3",
+                                        "spm_params": "{\"component\":\"gallery\",\"component_name\":\"\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248\",\"img\":392310}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "activity_code": "crypt-eaa77218fbf128ebab11cfd0b14b2173",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "type": "image",
+                                "ad_level_id": 0
+                            },
+                            {
+                                "w": 720,
+                                "h": 360,
+                                "material_id": 24191,
+                                "ad_position_id": 1061,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1ab1ffaaeb5ca4c02674e9f35b1fd17c.jpg?f=webp&w=1080&h=540&bg=59A5FD",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1ab1ffaaeb5ca4c02674e9f35b1fd17c.jpg?f=webp&w=1080&h=540&bg=59A5FD",
+                                "img_url_color": "#59A5FD",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=17205",
+                                    "log_code": "3110288wapactivitygallery004002#t=ad&act=other&page=activity&page_id=10288&bid=3469969.4&adp=1061&adm=24191",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469969.4",
+                                        "spm_params": "{\"component\":\"gallery\",\"component_name\":\"\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248\",\"img\":417202}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "activity_code": "crypt-834c4eb4e0341b9a26d455087960b9f8",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "type": "image",
+                                "ad_level_id": 0
+                            },
+                            {
+                                "w": 720,
+                                "h": 360,
+                                "material_id": 26248,
+                                "ad_position_id": 1097,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a2b3ab270e5ae4c9e85d6607cdb97008.jpg?f=webp&w=1080&h=540&bg=DC85AF",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a2b3ab270e5ae4c9e85d6607cdb97008.jpg?f=webp&w=1080&h=540&bg=DC85AF",
+                                "img_url_color": "#DC85AF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=18625",
+                                    "log_code": "3110288wapactivitygallery005002#t=ad&act=other&page=activity&page_id=10288&bid=3469969.5&adp=1097&adm=26248",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469969.5",
+                                        "spm_params": "{\"component\":\"gallery\",\"component_name\":\"\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248\",\"img\":469277}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "activity_code": "crypt-2c2670f216b578604af98c0f4b78a6e7",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "type": "image",
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469969",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469969",
+                        "spm_params": "{\"component\":\"gallery\",\"component_name\":\"\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u5e7f\\u544a\\u3011\\u8f6e\\u64ad\\u56fe 1080*540 - \\u65e7\\u7248"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3469970",
+                    "body": {
+                        "line_color": "#fafafa",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469970",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469970",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3469971",
+                    "body": {
+                        "w": 720,
+                        "h": 152,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e47dad0c224065a73a4c722eeaf1b8e1.jpg",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e47dad0c224065a73a4c722eeaf1b8e1.jpg",
+                                "img_url_color": "#EBEDF3",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=18625",
+                                    "log_code": "3110288wapactivitycells_auto_fill001004#t=normal&act=other&page=activity&page_id=10288&bid=3469971.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469971.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":178797}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-93ae64fa30cfc6b10812793c5488e1a0",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 144,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//i8.mifile.cn/v1/a1/eddc5967-7f37-bf45-72d9-de0db438658b.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/eddc5967-7f37-bf45-72d9-de0db438658b.webp",
+                                "img_url_color": "#F7F7F8",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10290",
+                                    "log_code": "3110288wapactivitycells_auto_fill002004#t=normal&act=other&page=activity&page_id=10288&bid=3469971.2",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469971.2",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163982}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-9a3979be2d13b3193260673691c1a2ee",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 288,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//i8.mifile.cn/v1/a1/8d73dc73-3a27-1587-6c43-47998c859a48.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/8d73dc73-3a27-1587-6c43-47998c859a48.webp",
+                                "img_url_color": "#DEDFE0",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10291",
+                                    "log_code": "3110288wapactivitycells_auto_fill003004#t=normal&act=other&page=activity&page_id=10288&bid=3469971.3",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469971.3",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":178796}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-69c665eefe02297196e4a301e4e9e412",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 432,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//i8.mifile.cn/v1/a1/afe66888-30af-d023-ebbe-6ed7e4607167.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/afe66888-30af-d023-ebbe-6ed7e4607167.webp",
+                                "img_url_color": "#DCDDDE",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10292",
+                                    "log_code": "3110288wapactivitycells_auto_fill004004#t=normal&act=other&page=activity&page_id=10288&bid=3469971.4",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469971.4",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163984}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-d1642630fef77c33cea937feecc42c4a",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 576,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//i8.mifile.cn/v1/a1/3ad80cd6-0188-1c0a-95d3-aeaa58ede247.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/3ad80cd6-0188-1c0a-95d3-aeaa58ede247.webp",
+                                "img_url_color": "#F6F7F8",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10293",
+                                    "log_code": "3110288wapactivitycells_auto_fill005004#t=normal&act=other&page=activity&page_id=10288&bid=3469971.5",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469971.5",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163985}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-4de6163ff20c8fe054cf024aaaea2aae",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469971",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469971",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3469972",
+                    "body": {
+                        "w": 720,
+                        "h": 152,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b9b8b8e686044afb2585e78a03ee96b6.png",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b9b8b8e686044afb2585e78a03ee96b6.png",
+                                "img_url_color": "#E5E5E6",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10294",
+                                    "log_code": "3110288wapactivitycells_auto_fill001005#t=normal&act=other&page=activity&page_id=10288&bid=3469972.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469972.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163986}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-15245e9b85e8f80ab2b6affdf282d6ec",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 144,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3304e52970aa972c4f4ccd6eb424ad7.png",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3304e52970aa972c4f4ccd6eb424ad7.png",
+                                "img_url_color": "#EDEDEE",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10295",
+                                    "log_code": "3110288wapactivitycells_auto_fill002005#t=normal&act=other&page=activity&page_id=10288&bid=3469972.2",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469972.2",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163987}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-fc187a13710e6f12230fe8f06b6e3c71",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 288,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fed94691e4b361f237d411c3f687c2d4.png",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/fed94691e4b361f237d411c3f687c2d4.png",
+                                "img_url_color": "#F6F6F8",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10296",
+                                    "log_code": "3110288wapactivitycells_auto_fill003005#t=normal&act=other&page=activity&page_id=10288&bid=3469972.3",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469972.3",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163988}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-179b7edc5a8043a427c77ca98795d4e5",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 432,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a2bc35b6be2ab377bfc7e8fddeaa54c5.png",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/a2bc35b6be2ab377bfc7e8fddeaa54c5.png",
+                                "img_url_color": "#EFE6E4",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10297",
+                                    "log_code": "3110288wapactivitycells_auto_fill004005#t=normal&act=other&page=activity&page_id=10288&bid=3469972.4",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469972.4",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163989}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-730c793a62b31cca3f5807952b36d77a",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 576,
+                                "w": 144,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d41a54c825db28e47888db6bd61349de.png",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d41a54c825db28e47888db6bd61349de.png",
+                                "img_url_color": "#E5E6E7",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10298",
+                                    "log_code": "3110288wapactivitycells_auto_fill005005#t=normal&act=other&page=activity&page_id=10288&bid=3469972.5",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469972.5",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\",\"img\":163990}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-633786940e78d37605f4f791143ab927",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469972",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469972",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u4e94\\u5217 - 216*228"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3477130",
+                    "body": {
+                        "line_color": "#fafafa",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3477130",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3477130",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3469974",
+                    "group_id": "10",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 112,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 112,
+                                "img_url": "//i8.mifile.cn/v1/a1/72411ddf-3df9-8d3a-7e5d-9429991710dc.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/72411ddf-3df9-8d3a-7e5d-9429991710dc.webp",
+                                "img_url_color": "#FDB460",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001007#t=normal&act=other&page=activity&page_id=10288&bid=3469974.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469974.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":192987}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-5489f309ab7f644b3c3b7761a894fbe4",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469974",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469974",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3469977",
+                    "body": {
+                        "line_color": "#ffffff",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469977",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469977",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3469989",
+                    "group_id": "11",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 112,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 112,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c25c68694e064f1eda1c207ad481f767.jpg",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c25c68694e064f1eda1c207ad481f767.jpg",
+                                "img_url_color": "#96C5FF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=10289",
+                                    "log_code": "3110288wapactivitycells_auto_fill001015#t=normal&act=other&page=activity&page_id=10288&bid=3469989.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469989.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":184823}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-3c5cf4b69798679a6bcccdaefe00fee7",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469989",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469989",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3803382",
+                    "body": {
+                        "line_color": "#ffffff",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3803382",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3803382",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3469991",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/147bd9e7605a2bdb2f8660f454bf5431.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/147bd9e7605a2bdb2f8660f454bf5431.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "13368",
+                                    "log_code": "3110288wapactivitylist_three_type4001017#t=product&act=other&page=activity&page_id=10288&bid=3469991.1&pid=13368",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469991.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"13368\",\"img\":472821}",
+                                        "scm": "cms.0.0.0.product.13368.0.0"
+                                    }
+                                },
+                                "product_id": "13368",
+                                "product_name": "小米路由器AX6000",
+                                "product_brief": "小米AX6000 | 2.5G全速网口 | 6路独立高性能信号放大器",
+                                "product_price": "549",
+                                "product_org_price": "549",
+                                "product_rebate": {},
+                                "activity_code": "crypt-28d8ff9ccd57e8ce9acd05b7789624eb",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "549",
+                                "market_price": "549"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c535011ba96da127fd3e1184eaf1e75.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0c535011ba96da127fd3e1184eaf1e75.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "13117",
+                                    "log_code": "3110288wapactivitylist_three_type4002017#t=product&act=other&page=activity&page_id=10288&bid=3469991.2&pid=13117",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469991.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"13117\",\"img\":450087}",
+                                        "scm": "cms.0.0.0.product.13117.0.0"
+                                    }
+                                },
+                                "product_id": "13117",
+                                "product_name": "增压挂烫机",
+                                "product_brief": "轻松深层除皱，熨出专业效果",
+                                "product_price": "529",
+                                "product_org_price": "529",
+                                "product_rebate": {},
+                                "activity_code": "crypt-8347172115816e25d97d9a1620659e20",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "529",
+                                "market_price": "529"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208081457_e145052d8f73b7f42dee34ae202e94f8.jpg?w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208081457_e145052d8f73b7f42dee34ae202e94f8.jpg?w=330&h=330&thumb=1",
+                                "action": {
+                                    "type": "product",
+                                    "path": "13071",
+                                    "log_code": "3110288wapactivitylist_three_type4003017#t=product&act=other&page=activity&page_id=10288&bid=3469991.3&pid=13071",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3469991.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"13071\"}",
+                                        "scm": "cms.0.0.0.product.13071.0.0"
+                                    }
+                                },
+                                "product_id": "13071",
+                                "product_name": "小米台式净饮机",
+                                "product_brief": "即滤即热，乐享鲜活纯净水",
+                                "product_price": "1499",
+                                "product_org_price": "1499",
+                                "product_rebate": {},
+                                "activity_code": "crypt-2385931fca70aaf57922f23fb4022aef",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "1499",
+                                "market_price": "1499"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3469991",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3469991",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3803383",
+                    "body": {
+                        "line_color": "#ffffff",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3803383",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3803383",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3477473",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/02e6dabde3845dbb14a91d58bd4b2c5c.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/02e6dabde3845dbb14a91d58bd4b2c5c.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E7F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "12855",
+                                    "log_code": "3110288wapactivitylist_three_type4001021#t=product&act=other&page=activity&page_id=10288&bid=3477473.1&pid=12855",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3477473.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"12855\",\"img\":437761}",
+                                        "scm": "cms.0.0.0.product.12855.0.0"
+                                    }
+                                },
+                                "product_id": "12855",
+                                "product_name": "米家纯净式智能加湿器",
+                                "product_brief": "自然水蒸发，纯净无雾更健康",
+                                "product_price": "299",
+                                "product_org_price": "299",
+                                "product_rebate": {},
+                                "activity_code": "crypt-e2fa85fbfe599921cd51a18f9b725d6c",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "299",
+                                "market_price": "299"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1c54f741e11c4c7df02afad401294c4c.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1c54f741e11c4c7df02afad401294c4c.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#F1ECE6",
+                                "action": {
+                                    "type": "product",
+                                    "path": "13127",
+                                    "log_code": "3110288wapactivitylist_three_type4002021#t=product&act=other&page=activity&page_id=10288&bid=3477473.2&pid=13127",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3477473.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"13127\",\"img\":469424}",
+                                        "scm": "cms.0.0.0.product.13127.0.0"
+                                    }
+                                },
+                                "product_id": "13127",
+                                "product_name": "米家智能多功能养生壶",
+                                "product_brief": "智能食谱一键烹饪",
+                                "product_price": "169",
+                                "product_org_price": "169",
+                                "product_rebate": {},
+                                "activity_code": "crypt-08779e807259988f4b7e0fb80145e7d6",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "169",
+                                "market_price": "169"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/dfb3853e83ef0e862aab7c3537a940b0.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/dfb3853e83ef0e862aab7c3537a940b0.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#BEBDB9",
+                                "action": {
+                                    "type": "product",
+                                    "path": "13031",
+                                    "log_code": "3110288wapactivitylist_three_type4003021#t=product&act=other&page=activity&page_id=10288&bid=3477473.3&pid=13031",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3477473.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"13031\",\"img\":456792}",
+                                        "scm": "cms.0.0.0.product.13031.0.0"
+                                    }
+                                },
+                                "product_id": "13031",
+                                "product_name": "小米智能门锁 Pro",
+                                "product_brief": "高清超广角摄像头 | 门口逗留侦测 | 可视化远程对讲 | 电子门铃功能 | 7大开锁方式 | 直插式C级锁芯 | 蓝宝石防刮指纹区 | 丰富智能联动",
+                                "product_price": "1599",
+                                "product_org_price": "1599",
+                                "product_rebate": {},
+                                "activity_code": "crypt-5a96eadebe953273ffac7585a27e28de",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "1599",
+                                "market_price": "1599"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3477473",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3477473",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3803384",
+                    "body": {
+                        "line_color": "#ffffff",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3803384",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3803384",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470002",
+                    "group_id": "1",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/9a88bb58-8598-5b40-73cb-e18d47d7d073.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/9a88bb58-8598-5b40-73cb-e18d47d7d073.webp",
+                                "img_url_color": "#EBECEE",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001023#t=normal&act=other&page=activity&page_id=10288&bid=3470002.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470002.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142531}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-9f5b6cb3658079d5f72511f0e30a5aba",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470002",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470002",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470003",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470003",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470003",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470006",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208092025_89dcab88d2d41f912e9d80f61da09ea5.jpg?w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208092025_89dcab88d2d41f912e9d80f61da09ea5.jpg?w=330&h=330&thumb=1",
+                                "action": {
+                                    "type": "product",
+                                    "path": "12723",
+                                    "log_code": "3110288wapactivitylist_three_type4001025#t=product&act=other&page=activity&page_id=10288&bid=3470006.1&pid=12723",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470006.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"12723\"}",
+                                        "scm": "cms.0.0.0.product.12723.0.0"
+                                    }
+                                },
+                                "product_id": "12723",
+                                "product_name": "米家智能蒸烤箱",
+                                "product_brief": "30L大容积， 蒸烤烘炸炖一机多用",
+                                "product_price": "1499",
+                                "product_org_price": "1499",
+                                "product_rebate": {},
+                                "activity_code": "crypt-9df7c4003f3229fe36fa9dc0d56fadee",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "1499",
+                                "market_price": "1499"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/91e6e48bd38410cd3cd8bf71410db618.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/91e6e48bd38410cd3cd8bf71410db618.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "12031",
+                                    "log_code": "3110288wapactivitylist_three_type4002025#t=product&act=other&page=activity&page_id=10288&bid=3470006.2&pid=12031",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470006.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"12031\",\"img\":359068}",
+                                        "scm": "cms.0.0.0.product.12031.0.0"
+                                    }
+                                },
+                                "product_id": "12031",
+                                "product_name": "米家龙头净水器",
+                                "product_brief": "高效过滤有害物质",
+                                "product_price": "149",
+                                "product_org_price": "149",
+                                "product_rebate": {},
+                                "activity_code": "crypt-e29f13e6c63980755feba2986b470c8c",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "149",
+                                "market_price": "149"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208091918_2ad04b405c6689e47fc219fc83a023d4.jpg?w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202208091918_2ad04b405c6689e47fc219fc83a023d4.jpg?w=330&h=330&thumb=1",
+                                "action": {
+                                    "type": "product",
+                                    "path": "11621",
+                                    "log_code": "3110288wapactivitylist_three_type4003025#t=product&act=other&page=activity&page_id=10288&bid=3470006.3&pid=11621",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470006.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"11621\"}",
+                                        "scm": "cms.0.0.0.product.11621.0.0"
+                                    }
+                                },
+                                "product_id": "11621",
+                                "product_name": "米家互联网洗碗机 8套嵌入式",
+                                "product_brief": "洗烘一体，除菌率高达99.99%",
+                                "product_price": "2299",
+                                "product_org_price": "2299",
+                                "product_rebate": {},
+                                "activity_code": "crypt-9bdfac7abfcf7d63c339733665965e74",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "2299",
+                                "market_price": "2299"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470006",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470006",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470005",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470005",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470005",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470012",
+                    "group_id": "2",
+                    "body": {
+                        "bg_color": "#f2f3fe",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/d0853ab7-58ab-197b-5322-da15baf3b4c0.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/d0853ab7-58ab-197b-5322-da15baf3b4c0.webp",
+                                "img_url_color": "#E7E8EA",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001031#t=normal&act=other&page=activity&page_id=10288&bid=3470012.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470012.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142530}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-310a47ba52a8ae77e843fa1acdce11a9",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470012",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470012",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470013",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470013",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470013",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470020",
+                    "group_id": "3",
+                    "body": {
+                        "bg_color": "#f2f3fe",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/5f9c55a5-c60f-69c2-04ca-049aad5e26ba.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/5f9c55a5-c60f-69c2-04ca-049aad5e26ba.webp",
+                                "img_url_color": "#E8E9EB",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001039#t=normal&act=other&page=activity&page_id=10288&bid=3470020.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470020.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142529}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-15b879e04866cdad9118d68411f96dfd",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470020",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470020",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470021",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470021",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470021",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470022",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/430f91fecaa6f94f93a549426c1e6b5e.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/430f91fecaa6f94f93a549426c1e6b5e.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#FBE9DF",
+                                "action": {
+                                    "type": "product",
+                                    "path": "12756",
+                                    "log_code": "3110288wapactivitylist_three_type4001041#t=product&act=other&page=activity&page_id=10288&bid=3470022.1&pid=12756",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470022.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"12756\",\"img\":412910}",
+                                        "scm": "cms.0.0.0.product.12756.0.0"
+                                    }
+                                },
+                                "product_id": "12756",
+                                "product_name": "触屏音箱Pro",
+                                "product_brief": "大屏不插电，小爱随身伴",
+                                "product_price": "549",
+                                "product_org_price": "549",
+                                "product_rebate": {},
+                                "activity_code": "crypt-fe9e31c35cc4aaa17febde20841ef23d",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "549",
+                                "market_price": "549"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/159e9dc6948ff33fb231c10c0c7700f1.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/159e9dc6948ff33fb231c10c0c7700f1.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E2F6EA",
+                                "action": {
+                                    "type": "product",
+                                    "path": "10745",
+                                    "log_code": "3110288wapactivitylist_three_type4002041#t=product&act=other&page=activity&page_id=10288&bid=3470022.2&pid=10745",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470022.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"10745\",\"img\":219747}",
+                                        "scm": "cms.0.0.0.product.10745.0.0"
+                                    }
+                                },
+                                "product_id": "10745",
+                                "product_name": "小米小爱音箱 Pro",
+                                "product_brief": "澎湃低音，语音遥控传统家电",
+                                "product_price": "299",
+                                "product_org_price": "299",
+                                "product_rebate": {},
+                                "activity_code": "crypt-9f75f55ce432dd4aba0e5e7b61227396",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "299",
+                                "market_price": "299"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/b30a7db9-300b-92a6-4b49-cd07aa34c4a4.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/b30a7db9-300b-92a6-4b49-cd07aa34c4a4.webp?w=1080&h=1080",
+                                "img_url_color": "#A7B1C1",
+                                "action": {
+                                    "type": "product",
+                                    "path": "9334",
+                                    "log_code": "3110288wapactivitylist_three_type4003041#t=product&act=other&page=activity&page_id=10288&bid=3470022.3&pid=9334",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470022.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"9334\",\"img\":149051}",
+                                        "scm": "cms.0.0.0.product.9334.0.0"
+                                    }
+                                },
+                                "product_id": "9334",
+                                "product_name": "小爱触屏音箱",
+                                "product_brief": "可视化智能家居，海量视听资源",
+                                "product_price": "269",
+                                "product_org_price": "269",
+                                "product_rebate": {},
+                                "activity_code": "crypt-b71134ae3316a709361458cedbdf6a81",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "269",
+                                "market_price": "269"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470022",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470022",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470023",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470023",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470023",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470028",
+                    "group_id": "4",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/5b89b77e-cdd5-bc72-c38b-cda838ee82fa.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/5b89b77e-cdd5-bc72-c38b-cda838ee82fa.webp",
+                                "img_url_color": "#E9EAEC",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001047#t=normal&act=other&page=activity&page_id=10288&bid=3470028.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470028.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142528}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-e83302121b6942f40085e47a0636b5dd",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470028",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470028",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470029",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470029",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470029",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470030",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/972a70f2-2752-6ab9-b2fe-44e011889586.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/972a70f2-2752-6ab9-b2fe-44e011889586.webp?w=1080&h=1080",
+                                "img_url_color": "#F4EDE6",
+                                "action": {
+                                    "type": "product",
+                                    "path": "9743",
+                                    "log_code": "3110288wapactivitylist_three_type4001049#t=product&act=other&page=activity&page_id=10288&bid=3470030.1&pid=9743",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470030.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"9743\",\"img\":167566}",
+                                        "scm": "cms.0.0.0.product.9743.0.0"
+                                    }
+                                },
+                                "product_id": "9743",
+                                "product_name": "米家台灯1S",
+                                "product_brief": "A级光学照度的智能台灯",
+                                "product_price": "179",
+                                "product_org_price": "179",
+                                "product_rebate": {},
+                                "activity_code": "crypt-4866bc91caa5667e2e36b567f9a9ef98",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "179",
+                                "market_price": "179"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/696864d4af74d5c92bbd828c0bc9d78a.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/696864d4af74d5c92bbd828c0bc9d78a.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F5",
+                                "action": {
+                                    "type": "product",
+                                    "path": "11682",
+                                    "log_code": "3110288wapactivitylist_three_type4002049#t=product&act=other&page=activity&page_id=10288&bid=3470030.2&pid=11682",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470030.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"11682\",\"img\":294662}",
+                                        "scm": "cms.0.0.0.product.11682.0.0"
+                                    }
+                                },
+                                "product_id": "11682",
+                                "product_name": "米家台灯Lite",
+                                "product_brief": " 国标A级照度，三档舒适好光",
+                                "product_price": "99",
+                                "product_org_price": "99",
+                                "product_rebate": {},
+                                "activity_code": "crypt-ae74b28b626d01a9558e1eced9facc92",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "99",
+                                "market_price": "99"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/90da24e3-b342-ae5a-c6a4-b34a8dd8c2d3.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/90da24e3-b342-ae5a-c6a4-b34a8dd8c2d3.webp?w=1080&h=1080",
+                                "img_url_color": "#E0E1E5",
+                                "action": {
+                                    "type": "product",
+                                    "path": "9152",
+                                    "log_code": "3110288wapactivitylist_three_type4003049#t=product&act=other&page=activity&page_id=10288&bid=3470030.3&pid=9152",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470030.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"9152\",\"img\":120798}",
+                                        "scm": "cms.0.0.0.product.9152.0.0"
+                                    }
+                                },
+                                "product_id": "9152",
+                                "product_name": "米家台灯Pro",
+                                "product_brief": "1.2平方米超大有效照明区",
+                                "product_price": "349",
+                                "product_org_price": "349",
+                                "product_rebate": {},
+                                "activity_code": "crypt-09099a6139ae38eb7577fc0c887e2c71",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "349",
+                                "market_price": "349"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470030",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470030",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470031",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470031",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470031",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470034",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/671630b2779485ec0f82b78587f7b7d9.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/671630b2779485ec0f82b78587f7b7d9.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "11889",
+                                    "log_code": "3110288wapactivitylist_three_type4001053#t=product&act=other&page=activity&page_id=10288&bid=3470034.1&pid=11889",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470034.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"11889\",\"img\":216695}",
+                                        "scm": "cms.0.0.0.product.11889.0.0"
+                                    }
+                                },
+                                "product_id": "11889",
+                                "product_name": "米家夜灯2 蓝牙版",
+                                "product_brief": "智能灯与人体、光线传感器3合1",
+                                "product_price": "59",
+                                "product_org_price": "59",
+                                "product_tag_array": [
+                                    "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/f89b78c9daf36d7d64a56cb1a9a82fbe.png?w=167&h=167"
+                                ],
+                                "product_rebate": {},
+                                "activity_code": "crypt-3d412a0650dcf20e49cbe23b6d29453b",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "59",
+                                "market_price": "59"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/570fa58b604ba40dc6caf78d8788d4b1.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/570fa58b604ba40dc6caf78d8788d4b1.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F5",
+                                "action": {
+                                    "type": "product",
+                                    "path": "11507",
+                                    "log_code": "3110288wapactivitylist_three_type4002053#t=product&act=other&page=activity&page_id=10288&bid=3470034.2&pid=11507",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470034.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"11507\",\"img\":278429}",
+                                        "scm": "cms.0.0.0.product.11507.0.0"
+                                    }
+                                },
+                                "product_id": "11507",
+                                "product_name": "米家LED灯泡 蓝牙MESH版",
+                                "product_brief": "智能语音控制，分组更简单",
+                                "product_price": "29.9",
+                                "product_org_price": "29.9",
+                                "product_tag_array": [
+                                    "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0f31919f6a9372a278fa6ad002650e5d.png?w=167&h=167"
+                                ],
+                                "product_rebate": {},
+                                "activity_code": "crypt-6225d725321c52832c34032294dee6ac",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "29.9",
+                                "market_price": "29.9"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/2ab12d0c-b990-211e-fd5d-98d3e8b83da0.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/2ab12d0c-b990-211e-fd5d-98d3e8b83da0.webp?w=1080&h=1080",
+                                "img_url_color": "#E8E5E2",
+                                "action": {
+                                    "type": "product",
+                                    "path": "9793",
+                                    "log_code": "3110288wapactivitylist_three_type4003053#t=product&act=other&page=activity&page_id=10288&bid=3470034.3&pid=9793",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470034.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"9793\",\"img\":178905}",
+                                        "scm": "cms.0.0.0.product.9793.0.0"
+                                    }
+                                },
+                                "product_id": "9793",
+                                "product_name": "飞利浦智睿筒灯 6个装",
+                                "product_brief": "亮度无级调节，随心变化",
+                                "product_price": "354",
+                                "product_org_price": "354",
+                                "product_rebate": {},
+                                "activity_code": "crypt-8310b8a8478e2ff5371202f9299c86a7",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "354",
+                                "market_price": "354"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470034",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470034",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470035",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470035",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470035",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470036",
+                    "group_id": "5",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/a3e7d93c-1027-78ef-2d5f-f1de56da269e.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/a3e7d93c-1027-78ef-2d5f-f1de56da269e.webp",
+                                "img_url_color": "#E9EAEC",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001055#t=normal&act=other&page=activity&page_id=10288&bid=3470036.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470036.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142527}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-082b72aeb915c5e46499ea89df91dd32",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470036",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470036",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470037",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470037",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470037",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470044",
+                    "group_id": "6",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/1cda8576-d3a1-2f11-8359-3c2b14bf0d2d.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/1cda8576-d3a1-2f11-8359-3c2b14bf0d2d.webp",
+                                "img_url_color": "#E9EAEB",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001063#t=normal&act=other&page=activity&page_id=10288&bid=3470044.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470044.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142526}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-348a542ceac6fc2c1fe1df15fcbfd6b7",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470044",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470044",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470045",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470045",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470045",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470046",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2e3ae4b083c0c5d3f25145a10ea513cb.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/2e3ae4b083c0c5d3f25145a10ea513cb.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#EAEFF2",
+                                "action": {
+                                    "type": "product",
+                                    "path": "2774",
+                                    "log_code": "3110288wapactivitylist_three_type4001065#t=product&act=other&page=activity&page_id=10288&bid=3470046.1&pid=2774",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470046.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"2774\",\"img\":207381}",
+                                        "scm": "cms.0.0.0.product.2774.0.0"
+                                    }
+                                },
+                                "product_id": "2774",
+                                "product_name": "平衡车",
+                                "product_brief": "年轻人的酷玩具",
+                                "product_price": "2199",
+                                "product_org_price": "2199",
+                                "product_rebate": {},
+                                "activity_code": "crypt-099cc050327dd5651df31e6a72d9cdf2",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "2199",
+                                "market_price": "2199"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/440606d7-ad7a-901e-fb51-f14bf35c6ea2.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/440606d7-ad7a-901e-fb51-f14bf35c6ea2.webp?w=1080&h=1080",
+                                "img_url_color": "#CDDEE6",
+                                "action": {
+                                    "type": "product",
+                                    "path": "10085",
+                                    "log_code": "3110288wapactivitylist_three_type4002065#t=product&act=other&page=activity&page_id=10288&bid=3470046.2&pid=10085",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470046.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"10085\",\"img\":180601}",
+                                        "scm": "cms.0.0.0.product.10085.0.0"
+                                    }
+                                },
+                                "product_id": "10085",
+                                "product_name": "平衡车改装套件",
+                                "product_brief": "小朋友的大玩具，老顽童的小赛车",
+                                "product_price": "2999",
+                                "product_org_price": "2999",
+                                "product_rebate": {},
+                                "activity_code": "crypt-1bbf886144238f5f9886bf749f05a21e",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "2999",
+                                "market_price": "2999"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/2b741ce0-8a00-ad2e-ca1b-0831841b4c23.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/2b741ce0-8a00-ad2e-ca1b-0831841b4c23.webp?w=1080&h=1080",
+                                "img_url_color": "#E7E3E2",
+                                "action": {
+                                    "type": "product",
+                                    "path": "9285",
+                                    "log_code": "3110288wapactivitylist_three_type4003065#t=product&act=other&page=activity&page_id=10288&bid=3470046.3&pid=9285",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470046.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"9285\",\"img\":129427}",
+                                        "scm": "cms.0.0.0.product.9285.0.0"
+                                    }
+                                },
+                                "product_id": "9285",
+                                "product_name": "电动滑板车Pro",
+                                "product_brief": "性能提升，动力更强劲",
+                                "product_price": "3099",
+                                "product_org_price": "3099",
+                                "product_rebate": {},
+                                "activity_code": "crypt-9948da4564f7a2dded97defeea488bd5",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "3099",
+                                "market_price": "3099"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470046",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470046",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470047",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470047",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470047",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470048",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/90003447-2eaf-f268-1ed6-4903be237854.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/90003447-2eaf-f268-1ed6-4903be237854.webp?w=1080&h=1080",
+                                "img_url_color": "#CACACE",
+                                "action": {
+                                    "type": "product",
+                                    "path": "6079",
+                                    "log_code": "3110288wapactivitylist_three_type4001067#t=product&act=other&page=activity&page_id=10288&bid=3470048.1&pid=6079",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470048.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"6079\",\"img\":11003}",
+                                        "scm": "cms.0.0.0.product.6079.0.0"
+                                    }
+                                },
+                                "product_id": "6079",
+                                "product_name": "平衡车 Plus",
+                                "product_brief": "一个形影不离的新伙伴",
+                                "product_price": "3499",
+                                "product_org_price": "3499",
+                                "product_rebate": {},
+                                "activity_code": "crypt-d7f06a7a539152c6f5263dcc3f7d3563",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "3499",
+                                "market_price": "3499"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/2bb52104-3e6c-192c-422f-86f5a08249c8.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/2bb52104-3e6c-192c-422f-86f5a08249c8.webp?w=1080&h=1080",
+                                "img_url_color": "#D4D1CE",
+                                "action": {
+                                    "type": "product",
+                                    "path": "10013",
+                                    "log_code": "3110288wapactivitylist_three_type4002067#t=product&act=other&page=activity&page_id=10288&bid=3470048.2&pid=10013",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470048.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"10013\",\"img\":179243}",
+                                        "scm": "cms.0.0.0.product.10013.0.0"
+                                    }
+                                },
+                                "product_id": "10013",
+                                "product_name": "平衡车燃动版",
+                                "product_brief": "燃动升级，随走随停",
+                                "product_price": "2599",
+                                "product_org_price": "2599",
+                                "product_rebate": {},
+                                "activity_code": "crypt-08c0e76d580475d7cf769685222cab27",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "2599",
+                                "market_price": "2599"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e62263f99b1cc1bc1e30735f5f9bc2f8.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e62263f99b1cc1bc1e30735f5f9bc2f8.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E7F0F5",
+                                "action": {
+                                    "type": "product",
+                                    "path": "11916",
+                                    "log_code": "3110288wapactivitylist_three_type4003067#t=product&act=other&page=activity&page_id=10288&bid=3470048.3&pid=11916",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470048.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"11916\",\"img\":325030}",
+                                        "scm": "cms.0.0.0.product.11916.0.0"
+                                    }
+                                },
+                                "product_id": "11916",
+                                "product_name": "电动滑板车1S",
+                                "product_brief": "型出格，行出色",
+                                "product_price": "2199",
+                                "product_org_price": "2199",
+                                "product_rebate": {},
+                                "activity_code": "crypt-8a8c0a786168ec007d982e8c94c91196",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "2199",
+                                "market_price": "2199"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470048",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470048",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470049",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470049",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470049",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470052",
+                    "group_id": "7",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/c1dce5fa-8aa7-30cd-affa-c1df88f6e2b2.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/c1dce5fa-8aa7-30cd-affa-c1df88f6e2b2.webp",
+                                "img_url_color": "#EAEBED",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001071#t=normal&act=other&page=activity&page_id=10288&bid=3470052.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470052.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142525}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-edbc7b4bff7a8e2d6b4a030601b3c215",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470052",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470052",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470053",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470053",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470053",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470060",
+                    "group_id": "8",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/3d0e1801-e3db-02b0-bbf6-f0fa41055c69.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/3d0e1801-e3db-02b0-bbf6-f0fa41055c69.webp",
+                                "img_url_color": "#E9EAEC",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001079#t=normal&act=other&page=activity&page_id=10288&bid=3470060.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470060.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142524}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-fc58b766cd9f8ca868286d367cd06daf",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470060",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470060",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470061",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470061",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470061",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3470068",
+                    "group_id": "9",
+                    "body": {
+                        "bg_color": "#dcdda4",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//i8.mifile.cn/v1/a1/98475d86-8477-e9de-efbe-a17435ffe885.webp",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/98475d86-8477-e9de-efbe-a17435ffe885.webp",
+                                "img_url_color": "#E8E9EB",
+                                "action": {
+                                    "type": "none",
+                                    "log_code": "3110288wapactivitycells_auto_fill001087#t=normal&act=other&page=activity&page_id=10288&bid=3470068.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470068.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":142523}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-423ef29a3680464f131f9ce9267ac929",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470068",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470068",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3803385",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3803385",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3803385",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470071",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e315bf299f209996e7e91b77a75512c.jpg?w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/4e315bf299f209996e7e91b77a75512c.jpg?w=330&h=330&thumb=1",
+                                "img_url_color": "#F0EFEA",
+                                "action": {
+                                    "type": "product",
+                                    "path": "9932",
+                                    "log_code": "3110288wapactivitylist_three_type4001091#t=product&act=other&page=activity&page_id=10288&bid=3470071.1&pid=9932",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470071.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"9932\",\"img\":169109}",
+                                        "scm": "cms.0.0.0.product.9932.0.0"
+                                    }
+                                },
+                                "product_id": "9932",
+                                "product_name": "彩色相纸",
+                                "product_brief": "精彩打印不间断",
+                                "product_price": "109",
+                                "product_org_price": "109",
+                                "product_rebate": {},
+                                "activity_code": "crypt-14f79f768a764ab311a93740d5c4d6a1",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "109",
+                                "market_price": "109"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/24f580f9-8ca1-6580-598c-68b4a3bfc967.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/24f580f9-8ca1-6580-598c-68b4a3bfc967.webp?w=1080&h=1080",
+                                "img_url_color": "#E6E2DE",
+                                "action": {
+                                    "type": "product",
+                                    "path": "3016",
+                                    "log_code": "3110288wapactivitylist_three_type4002091#t=product&act=other&page=activity&page_id=10288&bid=3470071.2&pid=3016",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470071.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"3016\",\"img\":914}",
+                                        "scm": "cms.0.0.0.product.3016.0.0"
+                                    }
+                                },
+                                "product_id": "3016",
+                                "product_name": "7号电池",
+                                "product_brief": "无汞无镉 环保电池",
+                                "product_price": "13.9",
+                                "product_org_price": "13.9",
+                                "product_rebate": {},
+                                "activity_code": "crypt-96f8e6b6c5d0f6a045f2ecee47f49c97",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "13.9",
+                                "market_price": "13.9"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/eb24cdeeea2e62f762e5bd2eccf43a83.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/eb24cdeeea2e62f762e5bd2eccf43a83.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "10721",
+                                    "log_code": "3110288wapactivitylist_three_type4003091#t=product&act=other&page=activity&page_id=10288&bid=3470071.3&pid=10721",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470071.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"10721\",\"img\":217705}",
+                                        "scm": "cms.0.0.0.product.10721.0.0"
+                                    }
+                                },
+                                "product_id": "10721",
+                                "product_name": "小米无线充电宝 10000mAh 10W",
+                                "product_brief": "能量满满，无线有线都能充",
+                                "product_price": "149",
+                                "product_org_price": "149",
+                                "product_rebate": {},
+                                "activity_code": "crypt-946509a12251f873af2ec8c6178d89a8",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "149",
+                                "market_price": "149"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470071",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470071",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470072",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470072",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470072",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_three_type4",
+                    "stat": "list_three_type4",
+                    "block_id": "3470073",
+                    "body": {
+                        "bg_color": "#f0f1f3",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#f54b4b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/ba62c335-1964-bf4f-173d-9bbc6340e956.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/ba62c335-1964-bf4f-173d-9bbc6340e956.webp?w=1080&h=1080",
+                                "img_url_color": "#C1D6E0",
+                                "action": {
+                                    "type": "product",
+                                    "path": "8018",
+                                    "log_code": "3110288wapactivitylist_three_type4001093#t=product&act=other&page=activity&page_id=10288&bid=3470073.1&pid=8018",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470073.1",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"8018\",\"img\":58232}",
+                                        "scm": "cms.0.0.0.product.8018.0.0"
+                                    }
+                                },
+                                "product_id": "8018",
+                                "product_name": "净水器滤芯 ",
+                                "product_brief": "吸附异味 异色 余氯",
+                                "product_price": "69",
+                                "product_org_price": "69",
+                                "product_rebate": {},
+                                "activity_code": "crypt-b9cd3bdb4e367657cf67aacec0a9a16c",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "69",
+                                "market_price": "69"
+                            },
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c101790d1f9d52873866e4c95a1ae897.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c101790d1f9d52873866e4c95a1ae897.jpg?f=webp&w=330&h=330&thumb=1",
+                                "img_url_color": "#E6F1F5",
+                                "action": {
+                                    "type": "product",
+                                    "path": "10817",
+                                    "log_code": "3110288wapactivitylist_three_type4002093#t=product&act=other&page=activity&page_id=10288&bid=3470073.2&pid=10817",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470073.2",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"10817\",\"img\":227623}",
+                                        "scm": "cms.0.0.0.product.10817.0.0"
+                                    }
+                                },
+                                "product_id": "10817",
+                                "product_name": "米家魔方转换器",
+                                "product_brief": "方寸之间，能量无限",
+                                "product_price": "59",
+                                "product_org_price": "59",
+                                "product_rebate": {},
+                                "activity_code": "crypt-817f367e51aba57e8c0614da0342349f",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "59",
+                                "market_price": "59"
+                            },
+                            {
+                                "img_url": "//i8.mifile.cn/v1/a1/cb1d87c5-a4cc-8d06-68dc-a963b553b40c.webp?w=1080&h=1080",
+                                "img_url_webp": "//i8.mifile.cn/v1/a1/cb1d87c5-a4cc-8d06-68dc-a963b553b40c.webp?w=1080&h=1080",
+                                "img_url_color": "#F6F4E9",
+                                "action": {
+                                    "type": "product",
+                                    "path": "7805",
+                                    "log_code": "3110288wapactivitylist_three_type4003093#t=product&act=other&page=activity&page_id=10288&bid=3470073.3&pid=7805",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3470073.3",
+                                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\",\"default_goods\":\"7805\",\"img\":80417}",
+                                        "scm": "cms.0.0.0.product.7805.0.0"
+                                    }
+                                },
+                                "product_id": "7805",
+                                "product_name": "小米插线板",
+                                "product_brief": "3个USB充电口，支持快充",
+                                "product_price": "59",
+                                "product_org_price": "59",
+                                "product_rebate": {},
+                                "activity_code": "crypt-ea5f241688f48b0db9e21f91a772f5ea",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "59",
+                                "market_price": "59"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470073",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470073",
+                        "spm_params": "{\"component\":\"list_three_type4\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u4e09\\u5217 - \\u5706\\u89d2"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3470074",
+                    "body": {
+                        "line_color": "#f0f1f3",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3470074",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3470074",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3505175",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "w": 720,
+                        "h": 280,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 280,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6c71c1c81edf64e2c13c137c2820805.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/c6c71c1c81edf64e2c13c137c2820805.jpg?f=webp",
+                                "img_url_color": "#EEEEE6",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11366",
+                                    "app_page_id": "11364",
+                                    "log_code": "3110288wapactivitycells_auto_fill001095#t=normal&act=other&page=activity&page_id=10288&bid=3505175.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_10288.3505175.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":213849}",
+                                        "scm": "cms.0.0.0.page.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-f423576cbfdeb7e987f70d62c37ae899",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3505175",
+                    "spm_stat": {
+                        "spm_code": "cms_10288.3505175",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                }
+            ],
+            "special_navigation_txt": {
+                "view_type": "special_navigation_txt",
+                "stat": "special_navigation_txt",
+                "block_id": "3472333",
+                "body": {
+                    "bg_color": "#ff4a00",
+                    "tab_bg_color": "#ffffff",
+                    "items": [
+                        {
+                            "title": "热卖爆品",
+                            "group_id": "10",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.1&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.1",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "新品专区",
+                            "group_id": "11",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.2&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.2",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "小家电",
+                            "group_id": "1",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.3&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.3",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "智能穿戴",
+                            "group_id": "2",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.4&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.4",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "耳机音箱",
+                            "group_id": "3",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.5&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.5",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "品质灯具",
+                            "group_id": "4",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.6&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.6",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "生活居家",
+                            "group_id": "5",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.7&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.7",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "便捷出行",
+                            "group_id": "6",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.8&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.8",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "个护清洁",
+                            "group_id": "7",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.9&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.9",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "儿童专区",
+                            "group_id": "8",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.10&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.10",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        },
+                        {
+                            "title": "配件耗材",
+                            "group_id": "9",
+                            "log_code": "logcode#page=activity&page_id=10288&bid=3472333.11&",
+                            "spm_stat": {
+                                "spm_code": "cms_10288.3472333.11",
+                                "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                                "scm": "cms.0.0.0.0.0.0.0"
+                            },
+                            "margin_left": 0,
+                            "margin_right": 0,
+                            "ad_level_id": 0
+                        }
+                    ],
+                    "text_color": "#000000",
+                    "margin_left": 0,
+                    "margin_right": 0,
+                    "selected_text_color": "#ffffff"
+                },
+                "spm_c": "3472333",
+                "spm_stat": {
+                    "spm_code": "cms_10288.3472333",
+                    "spm_params": "{\"component\":\"special_navigation_txt\",\"component_name\":\"\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876\",\"block_name\":\"\"}",
+                    "scm": "cms.0.0.0.0.0.0.0"
+                },
+                "components_name": "\\u3010\\u5bfc\\u822a\\u3011\\u6a2a\\u6392\\u5438\\u9876"
+            }
+        },
+        "default_type": "activity",
+        "default_id": 10288
+    },
+    "result": "ok"
+}

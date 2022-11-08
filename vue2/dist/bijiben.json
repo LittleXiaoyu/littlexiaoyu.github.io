@@ -1,0 +1,778 @@
+{
+    "code": 0,
+    "data": {
+        "tabs": [
+            {
+                "name": "推荐",
+                "page_type": "home",
+                "page_id": 0,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "智能",
+                "page_type": "activity",
+                "page_id": 10288,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "电视",
+                "page_type": "activity",
+                "page_id": 19071,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "家电",
+                "page_type": "activity",
+                "page_id": 18642,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            },
+            {
+                "name": "笔记本",
+                "page_type": "activity",
+                "page_id": 13176,
+                "is_default": false,
+                "word_selected_color": "#ed5b00",
+                "word_unselected_color": "#747474",
+                "bg_img": "",
+                "bg_img_webp": ""
+            }
+        ],
+        "data": {
+            "header": {
+                "spm_b": "cms_13176"
+            },
+            "sections": [
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3702545",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "40",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3702545",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3702545",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3712761",
+                    "body": {
+                        "bg_color": "#4878a6",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1bc92bd7fdb80c023c6887ae4f419e71.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1bc92bd7fdb80c023c6887ae4f419e71.jpg?f=webp",
+                                "img_url_color": "#4186BF",
+                                "action": {
+                                    "type": "none",
+                                    "extra": "",
+                                    "log_code": "3113176wapactivitycells_auto_fill001002#t=normal&act=other&page=activity&page_id=13176&bid=3712761.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3712761.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":394697}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-e593f5363e0e21a49dc4acd67e17bca3",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712761",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712761",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3712762",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "40",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712762",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712762",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_one_type14",
+                    "stat": "list_one_type14",
+                    "block_id": "3732471",
+                    "body": {
+                        "bg_color": "#4878a6",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#ea625b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b40029067abdfcc40bb6bde90b5d95d8.jpg?f=webp&w=1044&h=654",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/b40029067abdfcc40bb6bde90b5d95d8.jpg?f=webp&w=1044&h=654",
+                                "img_url_color": "#E6F1F3",
+                                "action": {
+                                    "type": "product",
+                                    "path": "10000253",
+                                    "log_code": "3113176wapactivitylist_one_type14001006#t=product&act=other&page=activity&page_id=13176&bid=3732471.1&pid=10000253",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3732471.1",
+                                        "spm_params": "{\"component\":\"list_one_type14\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u5355\\u5217\",\"default_goods\":\"10000253\",\"img\":399515}",
+                                        "scm": "cms.0.0.0.product.10000253.0.0"
+                                    }
+                                },
+                                "show_price_qi": true,
+                                "product_id": "10000253",
+                                "product_name": "RedmiBook Air 13",
+                                "product_brief": "打开它，就像翻开一本杂志",
+                                "product_price": "5199",
+                                "product_org_price": "5199",
+                                "product_rebate": {},
+                                "activity_code": "crypt-706c611dc1a7a7cf60107961c4334deb",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "5199",
+                                "market_price": "5199"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3732471",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3732471",
+                        "spm_params": "{\"component\":\"list_one_type14\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u5355\\u5217\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u5355\\u5217"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3732472",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "40",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3732472",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3732472",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "list_one_type14",
+                    "stat": "list_one_type14",
+                    "block_id": "3712771",
+                    "body": {
+                        "bg_color": "#4878a6",
+                        "btn_txt_color": "#ffffff",
+                        "btn_color": "#ea625b",
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/84771bd0e6146ecbb6479735a4263ed5.jpg?f=webp&w=1044&h=654",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/84771bd0e6146ecbb6479735a4263ed5.jpg?f=webp&w=1044&h=654",
+                                "img_url_color": "#FFFBF5",
+                                "action": {
+                                    "type": "product",
+                                    "path": "12290",
+                                    "log_code": "3113176wapactivitylist_one_type14001012#t=product&act=other&page=activity&page_id=13176&bid=3712771.1&pid=12290",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3712771.1",
+                                        "spm_params": "{\"component\":\"list_one_type14\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u5355\\u5217\",\"default_goods\":\"12290\",\"img\":359833}",
+                                        "scm": "cms.0.0.0.product.12290.0.0"
+                                    }
+                                },
+                                "product_id": "12290",
+                                "product_name": "小米显示器27英寸 165Hz版",
+                                "product_brief": "2K超清 | 165Hz刷新率 | 1ms IMBC快速响应 | ▲E＜2原色调校 | 一级能效",
+                                "product_price": "2199",
+                                "product_org_price": "2199",
+                                "product_rebate": {},
+                                "activity_code": "crypt-62f65dee8aa85e069a5600593da3b50f",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0,
+                                "show_price": "2199",
+                                "market_price": "2199"
+                            }
+                        ],
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712771",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712771",
+                        "spm_params": "{\"component\":\"list_one_type14\",\"component_name\":\"\\u3010\\u4ea7\\u54c1\\u3011H \\u5355\\u5217\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u4ea7\\u54c1\\u3011H \\u5355\\u5217"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3712772",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "35",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712772",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712772",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3694036",
+                    "group_id": "1",
+                    "body": {
+                        "bg_color": "#111144",
+                        "w": 720,
+                        "h": 80,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 80,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6a6c6904c72672a67f1ddb6d4938d414.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/6a6c6904c72672a67f1ddb6d4938d414.jpg?f=webp",
+                                "img_url_color": "#4186BF",
+                                "action": {
+                                    "type": "none",
+                                    "extra": "",
+                                    "log_code": "3113176wapactivitycells_auto_fill001014#t=normal&act=other&page=activity&page_id=13176&bid=3694036.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3694036.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":394696}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-0dd4b65a030a7ffc86c766a3314b23b2",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3694036",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3694036",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3712773",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "35",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712773",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712773",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3712779",
+                    "body": {
+                        "bg_color": "#4878a6",
+                        "w": 720,
+                        "h": 75,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 75,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/aeb37b208fc7303d6a6e16b57e4e1942.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/aeb37b208fc7303d6a6e16b57e4e1942.jpg?f=webp",
+                                "img_url_color": "#3E80BC",
+                                "action": {
+                                    "type": "none",
+                                    "extra": "",
+                                    "log_code": "3113176wapactivitycells_auto_fill001022#t=normal&act=other&page=activity&page_id=13176&bid=3712779.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3712779.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":394700}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-af70df6453a1ebdc1e5b43cc546da0cd",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712779",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712779",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3712780",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712780",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712780",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3712785",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "w": 720,
+                        "h": 74,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 74,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e320df8ff307626d984f1708d3c961f2.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/e320df8ff307626d984f1708d3c961f2.jpg?f=webp",
+                                "img_url_color": "#3E80BC",
+                                "action": {
+                                    "type": "none",
+                                    "extra": "",
+                                    "log_code": "3113176wapactivitycells_auto_fill001028#t=normal&act=other&page=activity&page_id=13176&bid=3712785.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3712785.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":394735}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-34c889b04eacf57f285479e743dc10d2",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712785",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712785",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3712786",
+                    "body": {
+                        "line_color": "#4878a6",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3712786",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3712786",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3635480",
+                    "group_id": "3",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "w": 720,
+                        "h": 70,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 720,
+                                "h": 70,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed0de51cddbd973e1ac2e27ba05a0693.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed0de51cddbd973e1ac2e27ba05a0693.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "none",
+                                    "extra": "",
+                                    "log_code": "3113176wapactivitycells_auto_fill001036#t=normal&act=other&page=activity&page_id=13176&bid=3635480.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3635480.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\",\"img\":299947}",
+                                        "scm": "cms.0.0.0.0.0.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-a033d6d69c6131485c63d28c257b44b2",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3635480",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3635480",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u5355\\u5217 - 1080*n"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3578875",
+                    "body": {
+                        "bg_color": "#4878a6",
+                        "w": 720,
+                        "h": 156,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 360,
+                                "h": 156,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d1ffaea355ab590ee88a48c9ab1ef0f.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d1ffaea355ab590ee88a48c9ab1ef0f.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11598",
+                                    "extra": "{\"page_title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875\\u5206\\u7c7b-\\u5b66\\u751f\\u515a\",\"page_id\":\"11598\"}",
+                                    "log_code": "3113176wapactivitycells_auto_fill001037#t=normal&act=other&page=activity&page_id=13176&bid=3578875.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3578875.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\",\"title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875\\u5206\\u7c7b-\\u5b66\\u751f\\u515a\",\"img\":299948}",
+                                        "scm": "cms.0.0.0.page.11598.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-37162cea0892bad44a3070e98ef7148b",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 360,
+                                "w": 360,
+                                "h": 156,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d4e381d6664a0f4aa94984af7b676de5.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/d4e381d6664a0f4aa94984af7b676de5.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11599",
+                                    "extra": "{\"page_title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875\\u5206\\u7c7b-\\u529e\\u516c\\u8fbe\\u4eba\",\"page_id\":\"11599\"}",
+                                    "log_code": "3113176wapactivitycells_auto_fill002037#t=normal&act=other&page=activity&page_id=13176&bid=3578875.2",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3578875.2",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\",\"title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875\\u5206\\u7c7b-\\u529e\\u516c\\u8fbe\\u4eba\",\"img\":299949}",
+                                        "scm": "cms.0.0.0.page.11599.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-832f8097bf7b7a0f0542dfc7df41a6f5",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3578875",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3578875",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3578876",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "w": 720,
+                        "h": 148,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 360,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/400e740d63fe4f377b05a3c969f150bf.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/400e740d63fe4f377b05a3c969f150bf.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11600",
+                                    "extra": "{\"page_title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875\\u5206\\u7c7b-\\u6e38\\u620f\\u72c2\",\"page_id\":\"11600\"}",
+                                    "log_code": "3113176wapactivitycells_auto_fill001038#t=normal&act=other&page=activity&page_id=13176&bid=3578876.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3578876.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\",\"title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875\\u5206\\u7c7b-\\u6e38\\u620f\\u72c2\",\"img\":299950}",
+                                        "scm": "cms.0.0.0.page.11600.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-852faa8fa9ffa81b2937fa3058589b16",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 360,
+                                "w": 360,
+                                "h": 152,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a1a44f1b6a7ed090eb624969845bd7e.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/1a1a44f1b6a7ed090eb624969845bd7e.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11603",
+                                    "extra": "{\"page_title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875-\\u5546\\u52a1\\u51fa\\u884c\",\"page_id\":\"11603\"}",
+                                    "log_code": "3113176wapactivitycells_auto_fill002038#t=normal&act=other&page=activity&page_id=13176&bid=3578876.2",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3578876.2",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\",\"title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875-\\u5546\\u52a1\\u51fa\\u884c\",\"img\":299951}",
+                                        "scm": "cms.0.0.0.page.11603.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-5ce04f367f9f809a6d8d454d0d6e8777",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3578876",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3578876",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n"
+                },
+                {
+                    "view_type": "cells_auto_fill",
+                    "stat": "cells_auto_fill",
+                    "block_id": "3578877",
+                    "body": {
+                        "bg_color": "#ffffff",
+                        "w": 720,
+                        "h": 158,
+                        "height": "0",
+                        "width": "0",
+                        "items": [
+                            {
+                                "w": 360,
+                                "h": 169,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8cd3044325d320007ec3c3444396287d.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/8cd3044325d320007ec3c3444396287d.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11602",
+                                    "extra": "{\"page_title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875-\\u7a0b\\u5e8f\\u5458\",\"page_id\":\"11602\"}",
+                                    "log_code": "3113176wapactivitycells_auto_fill001039#t=normal&act=other&page=activity&page_id=13176&bid=3578877.1",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3578877.1",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\",\"title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875-\\u7a0b\\u5e8f\\u5458\",\"img\":299952}",
+                                        "scm": "cms.0.0.0.page.11602.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-a4943f2756fb1c4093752e8fa4c22bee",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            },
+                            {
+                                "x": 360,
+                                "w": 360,
+                                "h": 169,
+                                "img_url": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/21d72b6e96625e586e52ac3e6b0bfedc.jpg?f=webp",
+                                "img_url_webp": "//cdn.cnbj1.fds.api.mi-img.com/mi-mall/21d72b6e96625e586e52ac3e6b0bfedc.jpg?f=webp",
+                                "img_url_color": "#FFFFFF",
+                                "action": {
+                                    "type": "activity",
+                                    "path": "https://s1.mi.com/m/app/hd/index.html?id=11601",
+                                    "extra": "{\"page_title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875-\\u8bbe\\u8ba1\\u5e08\",\"page_id\":\"11601\"}",
+                                    "log_code": "3113176wapactivitycells_auto_fill002039#t=normal&act=other&page=activity&page_id=13176&bid=3578877.2",
+                                    "spm_stat": {
+                                        "spm_code": "cms_13176.3578877.2",
+                                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\",\"title\":\"\\u7b14\\u8bb0\\u672c\\u9891\\u9053\\u9875-\\u8bbe\\u8ba1\\u5e08\",\"img\":299953}",
+                                        "scm": "cms.0.0.0.page.11601.0.0"
+                                    }
+                                },
+                                "path_type": "image",
+                                "activity_code": "crypt-d70dca193ee5c94ee3009e7ab2872862",
+                                "margin_left": 0,
+                                "margin_right": 0,
+                                "ad_level_id": 0
+                            }
+                        ],
+                        "recommend_flag": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3578877",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3578877",
+                        "spm_params": "{\"component\":\"cells_auto_fill\",\"component_name\":\"\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u56fe\\u7247\\u3011\\u53cc\\u5217 - 540*n"
+                },
+                {
+                    "view_type": "divider_line",
+                    "stat": "divider_line",
+                    "block_id": "3579475",
+                    "body": {
+                        "line_color": "#ffffff",
+                        "line_height": "24",
+                        "height": "0",
+                        "width": "0",
+                        "margin_left": 0,
+                        "margin_right": 0
+                    },
+                    "spm_c": "3579475",
+                    "spm_stat": {
+                        "spm_code": "cms_13176.3579475",
+                        "spm_params": "{\"component\":\"divider_line\",\"component_name\":\"\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24\"}",
+                        "scm": "cms.0.0.0.0.0.0.0"
+                    },
+                    "components_name": "\\u3010\\u901a\\u7528\\u3011\\u5206\\u9694\\u7ebf - 24"
+                }
+            ],
+            "seo": {
+                "title": "小米笔记本",
+                "keywords": "小米笔记本",
+                "description": "小米笔记本频道页"
+            }
+        },
+        "default_type": "activity",
+        "default_id": 13176
+    },
+    "result": "ok"
+}

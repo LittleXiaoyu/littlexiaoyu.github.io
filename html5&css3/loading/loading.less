@@ -1,0 +1,201 @@
+.box6{
+    // position: relative;
+    // width: 60px;
+    // height: 60px;
+    // border-radius: 50%;
+    // margin: 75px;
+    // display: inline-block;
+    // vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box6-1{
+        position: absolute;
+        border: 4px solid #fcf9fa;
+        border-left-color: transparent;
+        border-bottom: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        animation: box6-1 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+    }
+    .box6-2{
+        position: absolute;
+        border: 4px solid #fcf8fa;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        // left: calc(50% - 20px);
+        // top: calc(50% - 20px);
+        border-right: 0;
+        border-top-color: transparent;
+        animation: box6-2 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+    }
+}
+@keyframes box6-1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes box6-2 {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.box .box7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   div{
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        margin: 2px;
+        animation-name: box7;
+        // animation-timing-function: ease-in-out;
+        animation-duration: 1s;
+       animation-iteration-count: infinite;
+    }
+    .box7-1{
+        animation-delay: -1s;
+    }
+    .box7-2{
+        animation-delay: -0.9s;
+    }
+    .box7-3{
+        animation-delay: -0.8s;
+    }
+    .box7-4{
+        animation-delay: -0.7s;
+    }
+    .box7-5{
+        animation-delay: -0.6s;
+    }
+}
+@keyframes box7 {
+    0%,40%,100%{
+        transform: scaleY(1);
+    }
+    20%{
+        transform: scaleY(3);
+    }
+}
+.box8{
+    .box8-1{
+        div{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        .c1{
+            left: 40px;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        .c2{
+            right: 0;
+            top: 40px;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -0.6s;
+        }
+        .c3{
+            left: 40px;
+            bottom: 0;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -1.2s;
+        }
+        .c4{
+           top: 40px;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -1.8s;
+        }
+    }
+    .box8-2{
+        transform: rotate(45deg);
+         position: absolute;
+            width: 100%;
+            height: 100%;
+        div{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        .c1{
+            left: 40px;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -0.3s;
+        }
+        .c2{
+            right: 0;
+            top: 40px;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -0.9s;
+        }
+        .c3{
+            left: 40px;
+            bottom: 0;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -1.5s;
+        }
+        .c4{
+           top: 40px;
+            animation-name: box8;
+            animation-duration: 1.2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-delay: -2.1s;
+        }
+    }
+}
+@keyframes box8 {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}

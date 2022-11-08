@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.stage {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  background-image: url(index-img/背景.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stage .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.stage .head img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  outline: 5px solid #efc8ef;
+  transition: all 1s;
+  margin-top: 50px;
+  transform: rotate(0deg) scale(1);
+  overflow: hidden;
+}
+.stage .head img:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+.stage .title {
+  margin-top: 30px;
+}
+.stage .title li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #450523;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px 35px;
+}
+.stage .title li span {
+  font-weight: bold;
+}
+.stage .title li:hover {
+  background-color: #f8e2ef;
+}
+.content {
+  background-image: url(index-img/true.jfif);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .top {
+  padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+.content .top .head {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .top .head img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 10px #debd87;
+}
+.content .top .title {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+  color: #fbf4fa;
+}
+.content .top .title li {
+  margin-right: 10px;
+}
+.content .top .title li span {
+  font-weight: bold;
+}
+.content .menu {
+  padding-top: 50px;
+  background-color: rgba(169, 122, 162, 0.28);
+}
+.content .menu i.fa-graduation-cap {
+  color: #1b1a1a;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px;
+}
+.content .menu .skills {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .menu .skills .skill {
+  margin: 0;
+}
+.content .menu .skills .skill .skills-icon {
+  display: flex;
+  justify-content: center;
+}
+.content .menu .skills .skill .skills-icon i {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 5px #f8d7f1;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+  font-size: 36px;
+}
+.content .menu .skills .skill .skills-icon i img {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.content .menu .skills .skill .skills-icon i:hover {
+  transform: rotate(360deg);
+}
+.content .menu .skills .skill .skills-title h3 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .menu .skills .skill .skills-title p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #76576e;
+}
+.content .works {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(166, 200, 229, 0.515);
+}
+.content .works .works-img {
+  height: 100%;
+}
+.content .works .works-img p {
+  font-weight: bold;
+  color: black;
+  font-size: 26px;
+  margin: 20px;
+}
+.content .works .works-img ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content .works .works-img ul li {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.content .works .works-img ul li a {
+  text-decoration: none;
+}
+.content .works .works-img ul li a .pic-img {
+  width: 250px;
+  height: 250px;
+  transform: scale(1);
+  border-radius: 10px;
+  overflow: hidden;
+  list-style: none;
+  transition: all 0.5s;
+}
+.content .works .works-img ul li a .pic-img:hover {
+  transform: scale(1.1);
+}
+.content .works .works-img ul li a .pic-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: all 0.5s;
+  display: block;
+}
+.content .works .works-img ul li a h5 {
+  display: flex;
+  justify-content: center;
+  color: #2e2416;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.content .works .works-img ul li a h5:hover {
+  color: gray;
+}
+@media screen and (max-width: 992px) {
+  .stage {
+    display: none;
+  }
+  .content {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=./style.css.map */

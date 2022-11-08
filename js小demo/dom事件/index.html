@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+            margin: 0;
+            padding: 0;
+        }
+        .stage{
+            width:1000px;
+            height: 600px;
+            /* width:100%;
+            height: 100vh; */
+            background-color: black;
+            margin: 0 auto;
+            position: relative;
+        }
+     
+         p{
+            position: absolute;
+            background-image: url(./heart.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <p></p>
+    </div>
+    <script>
+        var mainEl=document.querySelector('.stage');
+        // var mainEl=document.body;
+        function showIcon() {
+            this.width=parseInt(Math.random()*100+50);
+            this.height=this.width;
+            this.x=parseInt(Math.random()*(mainEl.offsetWidth-this.width)); 
+            // console.log(this.width);
+            this.y=parseInt(Math.random()*(mainEl.offsetHeight-this.height));
+            // console.log(this);
+            this.node=document.createElement('p');
+            this.upView();
+            mainEl.appendChild(this.node);
+
+        }
+      showIcon.prototype.upView=function(){
+        this.node.style.width= this.width+'px';
+        this.node.style.height=this.height+'px';
+        this.node.style.left=this.x+'px';
+        this.node.style.top=this.y+'px';
+      }
+      mainEl.onclick=function(e){
+       if(e.target.nodeName=='P'){
+         mainEl.removeChild(e.target);
+       }else{
+        clearInterval(stop);
+        alert('点错了');
+        mainEl.onclick=null
+       }
+        console.log(e.target.nodeName);
+      }
+   var stop=setInterval(function () {
+        var d=new showIcon();
+      },800)
+    //   setTimeout(function () {
+    //     location.reload()
+    //   },10000)
+
+    </script>
+</body>
+</html>

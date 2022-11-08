@@ -1,0 +1,125 @@
+ul {
+  list-style: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  margin: 30px 60px;
+  background-color: antiquewhite;
+}
+.box .h-top {
+  margin-bottom: 20px;
+}
+.box .h-top .p11 {
+  display: flex;
+  margin: 10px;
+}
+.box .h-top .p11 .c11 {
+  color: gray;
+}
+.box .h-top .p11 ul.menu1 {
+  display: flex;
+}
+.box .h-top .p11 ul.menu1 li {
+  margin: 0 10px;
+}
+.box .h-top .p11 ul.menu1 li:nth-child(1) {
+  color: lightseagreen;
+}
+.box .h-top .p22 {
+  display: flex;
+  margin: 10px;
+}
+.box .h-top .p22 .c22 {
+  color: gray;
+}
+.box .h-top .p22 ul.menu2 {
+  display: flex;
+  list-style: none;
+}
+.box .h-top .p22 ul.menu2 li {
+  margin: 0 10px;
+}
+.box .h-top .p22 ul.menu2 li:nth-child(1) {
+  color: lightseagreen;
+}
+.box .h-top .p33 {
+  display: flex;
+  margin: 10px;
+}
+.box .h-top .p33 .c33 {
+  color: gray;
+}
+.box .h-top .p33 ul.menu3 {
+  display: flex;
+  list-style: none;
+}
+.box .h-top .p33 ul.menu3 li {
+  margin: 0 10px;
+}
+.box .h-top .p33 ul.menu3 li:nth-child(1) {
+  color: lightseagreen;
+}
+.box .h-top .p44 {
+  display: flex;
+  margin: 10px;
+}
+.box .h-top .p44 .c44 {
+  color: gray;
+}
+.box .h-top .p44 ul.menu4 {
+  display: flex;
+  list-style: none;
+}
+.box .h-top .p44 ul.menu4 li {
+  margin: 0 10px;
+}
+.box .h-top .p44 ul.menu4 li:nth-child(1) {
+  color: lightseagreen;
+}
+.box .h-top .p55 {
+  display: flex;
+  margin: 10px;
+}
+.box .h-top .p55 .c55 {
+  color: gray;
+}
+.box .h-top .p55 ul.menu5 {
+  display: flex;
+  list-style: none;
+}
+.box .h-top .p55 ul.menu5 li {
+  margin: 0 10px;
+}
+.box .h-top .p55 ul.menu5 li:nth-child(1) {
+  color: lightseagreen;
+}
+.box .card-img {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box .card-img .card {
+  text-align: center ;
+  margin: 0 10px;
+}
+.box .card-img .card p {
+  width: 180px;
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box .card-img .card h4 {
+  Overflow: hidden;
+  width: 180px;
+  height: 20px;
+  font-size: 14px;
+}
+.active {
+  background-color: aqua;
+}
+/*# sourceMappingURL=./分类.css.map */

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little个人主页</title>
+    <link rel="shortcut icon" href="./index-img/mao.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <!-- <div class="stage">
+        <div class="head">
+            <img src="./index-img/mao.png" alt="">
+        </div>
+        <ul class="title">
+            <li><i class="fa fa-user-circle-o"><span>个人简介</span></i></li>
+            <li><span>姓名：</span>梁小煜</li>
+            <li><span>性别：</span>女</li>
+            <li><span>学历：</span>本科</li>
+            <li><span>意向：</span>前端开发</li>
+        </ul>
+    </div> -->
+    <div class="content">
+        <div class="top">
+            <div class="head">
+                <img src="./index-img/mao.png" alt="">
+            </div>
+            <ul class="title">
+                <li><i class="fa fa-user-circle-o"><span>个人简介</span></i></li>
+                <li><span>姓名：</span>梁小煜</li>
+                <li><span>性别：</span>女</li>
+                <li><span>学历：</span>本科</li>
+                <li><span>意向：</span>前端开发</li>
+            </ul>
+        </div>
+        <div class="menu">
+            <i class="fa fa-graduation-cap">掌握的技能</i>
+            <div class="skills">
+                <div class="row skill">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="skills-icon">
+                            <i class="fa fa-html5"></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>HTML5</h3>
+                            <p>熟悉使用 HTML5 网站的
+                                架构和开发</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="skills-icon">
+                            <i class="fa fa-css3"></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>CSS3</h3>
+                            <p>熟悉使用 CSS3 写响应式网站、
+                                动画</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="skills-icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>JavaScript</h3>
+                            <p>熟练使用 JS 制作程序、
+                                交互与特效</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="skills-icon">
+                            <i><img src="./index-img/bs.jfif" alt=""></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>BootStrap</h3>
+                            <p>熟练操作BootStrap搭建
+                                页面和框架等</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="skills-icon">
+                            <i><img src="./index-img/jq.jpg" alt=""></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>jQuery</h3>
+                            <p>熟练使用JQ制作、
+                                用户交互效果
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <div class="skills-icon">
+                            <i><img src="./index-img/vue.jfif" alt=""></i>
+                        </div>
+                        <div class="skills-title">
+                            <h3>VUE</h3>
+                            <p>熟悉VUE搭建框架</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="works">
+            <div class="works-img row">
+                <p class="col-xs-12">VUE</p>
+                <ul class="vue row col-xs-12">
+                </ul>
+                <p class="col-xs-12">HTML&CSS</p>
+                <ul class="html-css row col-xs-12">
+                </ul>
+                <p class="col-xs-12">JavaScript</p>
+                <ul class="js row col-xs-12">
+                </ul>
+                <p class="col-xs-12">jQuery</p>
+                <ul class="jq row col-xs-12">
+                </ul>
+                <p class="col-xs-12">BootStrap</p>
+                <ul class="bs row col-xs-12">
+                </ul>
+                <p class="col-xs-12">HTML5&CSS3</p>
+                <ul class="html5css3 row col-xs-12">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        let htmlCss = document.querySelector(".content .works .works-img .html-css")
+        let javaScript = document.querySelector(".content .works .works-img .js")
+        let jQuery = document.querySelector(".content .works .works-img .jq")
+        let bootStrap = document.querySelector(".content .works .works-img .bs")
+        let html5css3 = document.querySelector(".content .works .works-img .html5css3")
+        let vue = document.querySelector(".content .works .works-img .vue")
+        function getJSON(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    callback(JSON.parse(xhr.response))
+                }
+            };
+            xhr.open('GET', url, true);
+            xhr.send();
+        }
+        getJSON('./date.json', function (res) {
+            // console.log(res);
+
+            create(htmlCss, res.htmlc);
+            create(javaScript, res.javaScript)
+            create(jQuery, res.jQuery)
+            create(bootStrap, res.bootStrap)
+            create(html5css3, res.html5css3)
+            create(vue, res.vue)
+
+        })
+        function create(dom, arr) {
+            // console.log(res);
+            for (var i = 0; i < arr.length; i++) {
+                var li = document.createElement('li')
+                li.className = 'col-xs-12 col-sm-6 col-md-4'
+                var a = document.createElement('a')
+                a.href = arr[i].url;
+                a.target = "blank"
+                var div = document.createElement('div')
+                div.className = 'pic-img'
+                var img = document.createElement('img')
+                img.src = arr[i].pic
+                var h5 = document.createElement('h5')
+                h5.innerText = arr[i].title;
+                div.appendChild(img)
+                a.appendChild(div)
+                a.appendChild(h5)
+                li.appendChild(a)
+                dom.appendChild(li)
+            }
+        }
+    </script>
+</body>
+</html>

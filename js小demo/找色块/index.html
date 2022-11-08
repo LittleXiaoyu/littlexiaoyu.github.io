@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>找色块游戏</title>
+    <link rel="stylesheet" href="./my-minireset.css">
+    <style>
+        .stage{
+            width: 500px;
+            height: 500px;
+            /* background-color: antiquewhite; */
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        .stage li{
+            border-radius: 50%;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <ul class="stage"></ul>
+    <script>
+        var level = 1;
+        var stage = document.querySelector('.stage');
+        var h1 = document.querySelector("h1");
+        function showDot(level) {
+            h1.innerText='第'+ level+'关';
+            stage.innerHTML='';
+            var color= '#'+Math.random().toString(16).slice(-6);
+            for (let i = 0; i <Math.pow(level+2,2) ; i++) {
+                var node=document.createElement('li') ;
+                node.style.backgroundColor=color;
+                node.style.width=500/(level+2)  +'px';
+                stage.appendChild(node);       
+            }
+             // 随机找一个dot元素 添加事件/ 改变透明
+             var index = Math.floor(Math.random()*stage.querySelectorAll('li').length);
+             stage.querySelectorAll('li')[index].style.opacity='0.8';
+             stage.querySelectorAll('li')[index].onclick=function(){
+                level++;
+                showDot(level);
+             };
+        }
+        showDot(level);
+
+    </script>
+</body>
+</html>

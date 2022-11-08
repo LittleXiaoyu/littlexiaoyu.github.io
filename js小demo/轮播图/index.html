@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js手风琴</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .stage1 {
+            width: 712px;
+            height: 100px;
+            margin: 50px auto;
+        }
+
+        .stage1 .imgs {
+            width: 712px;
+            height: 100px;
+            display: flex;
+
+        }
+
+        .stage1 .imgs i {
+            width: 70px;
+            height: 70px;
+            transition: all 0.5s;
+            display: block;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: auto 100%;
+            margin: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        .stage1 .imgs i:nth-child(1) {
+            width: 225px;
+            background-image: url(./img手风琴/1.png);
+        }
+
+        .stage1 .imgs i:nth-child(2) {
+            background-image: url(./img手风琴/2.png);
+
+        }
+
+        .stage1 .imgs i:nth-child(3) {
+            background-image: url(./img手风琴/3.png);
+        }
+
+        .stage1 .imgs i:nth-child(4) {
+            background-image: url(./img手风琴/4.png);
+        }
+
+        .stage1 .imgs i:nth-child(5) {
+            background-image: url(./img手风琴/5.png);
+        }
+
+        .stage1 .imgs i:nth-child(6) {
+            background-image: url(./img手风琴/6.png);
+        }
+
+        .stage1 .imgs i:nth-child(7) {
+            background-image: url(./img手风琴/7.png);
+        }
+    </style>
+    <style>
+        .item {
+            width: 800px;
+            height: 450px;
+            margin: 0 auto;
+            display: flex;
+            background-color: antiquewhite;
+        }
+
+        .item div {
+            width: 60px;
+            height: 100%;
+            transition: all 0.5s;
+            background-size: auto 100%;
+
+            background-position: top center;
+        }
+
+        .item div:nth-child(1) {
+            width: 800px;
+            background-image: url('./img/1.jpg');
+        }
+
+        .item div:nth-child(2) {
+
+            background-image: url('./img/2.jpg');
+        }
+
+        .item div:nth-child(3) {
+            background-image: url('./img/3.jpg');
+        }
+
+        .item div:nth-child(4) {
+            background-image: url('./img/4.jpg');
+        }
+    </style>
+
+    <style>
+        .stage2 {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+            position: relative;
+            border: 1px solid black;
+        }
+        
+
+        .stage2 .imgs img:nth-child(1) {
+            position: relative;
+        }
+
+        .stage2 .imgs{
+        position: relative;
+        width: 100%;
+            height: 100%;
+    }
+        .stage2 .imgs img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .stage2 ul.dots {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            bottom: 0;
+            left: calc(50% - 60px);
+            /* z-index: 999; */
+        }
+
+        .stage2 ul.dots li {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: block;
+            background-color: antiquewhite;
+        }
+
+        .stage2 .lr {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            color: aliceblue;
+            /* height: 20px; */
+            top: calc(50% - 10px);
+
+        }
+
+        .stage2 .lr div:nth-child(1) {
+            /* position: absolute; */
+            left: 0;
+        }
+
+        .stage2 .lr div:nth-child(2) {
+            /* position: absolute; */
+            right: 0;
+        }
+    </style>
+
+    <style>
+        .stage3 {
+            width: 480px;
+            height: 300px;
+            margin: 80px auto;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid black;
+        }
+
+        .stage3 .imgs {
+            width: 480px;
+            height: 300px;
+            display: flex;
+            transition: all 0.5s;
+            /* 调节图片滑动 */
+            margin-left: 0;
+        }
+
+        .stage3 .imgs img {
+            display: block;
+            /* width: 100%; */
+            width: 100%;
+            height: 100%;
+        }
+
+        .stage3 ul.dots {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            bottom: 0;
+            z-index: 99999;
+            left: calc(50% - 60px);
+        }
+
+        .stage3 ul.dots li {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: block;
+            background-color: antiquewhite;
+        }
+
+        .stage3 .lr {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            color: aliceblue;
+            top: calc(50% - 10px);
+        }
+
+        .stage3 .lr div:nth-child(1) {
+            left: 0;
+        }
+
+        .stage3 .lr div:nth-child(2) {
+            right: 0;
+        }
+    </style>
+   
+</head>
+
+<body>
+    <div class="stage1">
+        <div class="imgs">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+    </div>
+
+    <div class="item">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="stage2">
+        <div class="imgs">
+            <img src="./轮播图pic/1.jpg" alt="">
+            <img src="./轮播图pic/2.jpg" alt="">
+            <img src="./轮播图pic/3.jpg" alt="">
+            <img src="./轮播图pic/4.jpg" alt="">
+            <img src="./轮播图pic/5.jpg" alt="">
+            <img src="./轮播图pic/6.jpg" alt="">
+
+        </div>
+        <ul class="dots">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="lr">
+            <div>&lt</div>
+            <div>&gt</div>
+        </div>
+    </div>
+
+    <div class="stage3">
+        <div class="imgs">
+            <img src="./img/1.jpg" alt="">
+            <img src="./img/2.jpg" alt="">
+            <img src="./img/3.jpg" alt="">
+            <img src="./img/4.jpg" alt="">
+            <!-- <img src="./img/5.jpg" alt="">
+            <img src="./img/6.jpg" alt=""> -->
+
+        </div>
+        <ul class="dots">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <!-- <li></li>
+            <li></li> -->
+        </ul>
+        <div class="lr">
+            <div>&lt</div>
+            <div>&gt</div>
+        </div>
+    </div>
+
+    <script>
+        var iconEl = document.querySelectorAll('.stage1 .imgs i');
+        iconEl.forEach(function (ele, i) {
+            ele.onmouseenter = function () {
+                iconEl.forEach(function (ic, n) {
+                    if (i == n) {
+                        ic.style.width = '225px';
+                    } else {
+                        ic.style.width = '70px';
+                    }
+                })
+            }
+        })
+    </script>
+
+    <script>
+        var imgss = document.querySelectorAll('.item div');
+
+        imgss.forEach(function (m, i) {
+            // console.log(m);
+            m.onclick = function () {
+                imgss.forEach(function (element, index) {
+                    if (index === i) {
+                        element.style.width = "800px";
+
+                    }
+                    else {
+                        element.style.width = '60px';
+                    }
+                });
+            };
+
+        });
+
+    </script>
+
+
+    <script>
+        var imgEl2 = document.querySelectorAll('.stage2 .imgs img');
+        var dots2 = document.querySelectorAll('.stage2 .dots li');
+        var nextEl2 = document.querySelectorAll('.stage2 .lr div')[1];
+        var preEl2 = document.querySelectorAll('.stage2 .lr div')[0];
+        // console.log(imgEl);
+        var cur2 = 0;
+        function showImgs2(n) {
+            imgEl2.forEach(function (ele, i) {
+                if (i === n) {
+                    imgEl2[i].style.opacity = '1';
+                    dots2[i].style['background-color'] = 'rgb(252, 144, 3)';
+                } else {
+                    imgEl2[i].style.opacity = '0';
+                    dots2[i].style['background-color'] = 'antiquewhite';
+                }
+            })
+        }
+        //初始化
+        showImgs2(cur2)
+        //点击下一张
+        function showNext2() {
+
+            cur2++;
+            // console.log(cur2);
+            if (cur2 >= imgEl2.length) {
+                cur2 = 0;
+            }
+            showImgs2(cur2);
+
+        }
+        nextEl2.onclick = showNext2;
+        //点击上一张
+        preEl2.onclick = function () {
+            cur2--;
+            if (cur2 < 0) {
+                cur2 = imgEl2.length - 1;
+            }
+            showImgs(cur2);
+        }
+        dots2.forEach(function (ele, i) {
+            ele.onclick = function () {
+                showImgs2(i)
+            };
+        });
+        setInterval(function () {
+            showNext2();
+        }, 2000);
+    </script>
+
+    <script>
+        var imgsEl3 = document.querySelector('.stage3 .imgs');
+        var imgEl3 = document.querySelectorAll('.stage3 .imgs img');
+        var dotsEl3 = document.querySelectorAll('.stage3 .dots li');
+        var nextEl3 = document.querySelectorAll('.stage3 .lr div')[1];
+        var preEl3 = document.querySelectorAll('.stage3 .lr div')[0];
+        var cur3 = 0;
+        function showImg3(n) {
+            cur3 = n;
+            imgsEl3.style['margin-left'] = -n * 480 + 'px';
+            for (var i = 0; i < dotsEl3.length; i++) {
+                if (i === n) {
+                    dotsEl3[i].style['background-color'] = 'rgb(80, 168, 244)';
+                } else {
+                    dotsEl3[i].style['background-color'] = 'antiquewhite';
+                }
+            }
+        }
+        showImg3(0)
+        dotsEl3.forEach(function (ele, i) {
+            //    console.log(dotsEl); 
+            ele.onclick = function () {
+                showImg3(i);
+                console.log();
+            }
+        })
+        nextEl3.onclick = showNext3;
+        function showNext3() {
+            if (cur3 >= imgEl3.length - 1) {
+                cur3 = 0;
+            } else {
+                ++cur3;
+            }
+            showImg3(cur3);
+        }
+        preEl3.onclick = function () {
+            if (cur3 <= 0) {
+                cur3 = imgEl3.length - 1;
+            } else {
+                --cur3;
+            }
+            console.log(cur3);
+            showImg3(cur3);
+        }
+        setInterval(function () {
+            showNext3();
+        }, 2000);
+    </script>
+</body>
+
+</html>

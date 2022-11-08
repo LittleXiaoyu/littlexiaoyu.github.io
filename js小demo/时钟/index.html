@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时钟</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            width: 800px;
+            margin:0 auto;
+        }
+        .num {
+            display: flex;
+            justify-content: center;
+            margin: 0 10px;
+            padding: 10px 0;
+            background-color: rgb(24, 57, 86);
+            border-radius: 10px;
+
+        }
+
+        .num .hh,
+        .num .mm,
+        .num .ss {
+            display: flex;
+            width: 90px;
+            /* height: 100px; */
+            flex-wrap: wrap;
+            /* background-color: aqua; */
+           
+            
+        }
+        .num .mm1{
+            margin-left: 20px;
+        }
+        .num .ss1{
+            margin-left: 20px;
+        }
+
+        h6 {
+            /* display: block; */
+            margin: 0;
+            padding: 0;
+            opacity: 0;
+            width: 30%;
+            height: 27px;
+            background-color: rgb(134, 134, 235);
+            outline: 1px solid rgb(233, 179, 179);
+
+        }
+
+        h6.active {
+            opacity: 1;
+        }
+
+
+     
+        .box {
+            width: 300px;
+            height: 300px;
+            /* background-color: aquamarine; */
+            background-image: url(./1.jpg);
+            background-position:70% 30%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            position: relative;
+        margin: 50px auto;
+
+        }
+
+        .box .time {
+            height: 100%;
+            position: relative;
+
+        }
+
+        .box .time .hh {
+            width: 10px;
+            height: 60px;
+            background-color: rgb(165, 163, 42);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -5px;
+            transform-origin: top center;
+
+
+        }
+
+        .box .time .mm {
+            width: 8px;
+            height: 80px;
+            background-color: rgb(0, 0, 0);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -4px;
+            transform-origin: top center;
+        }
+
+        .box .time .ss {
+            width: 2px;
+            height: 140px;
+            background-color: brown;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -1px;
+            transform-origin: top center;
+        }
+
+        .box .search {
+
+            position: relative;
+        }
+
+        .box .search i {
+            display: block;
+            transform-origin: center 150px;
+        }
+
+        .box .search i.b {
+            width: 6px;
+            height: 20px;
+            background-color: rgb(144, 67, 67);
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -3px;
+            transform-origin: center 150px;
+        }
+
+        .box .search i.s {
+            width: 4px;
+            height: 10px;
+            background-color: rgb(65, 63, 63);
+
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -2px;
+
+        }
+
+        .box .dot {
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -10px;
+            margin-top: -10px;
+        } 
+    </style>
+
+    <div class="num">
+        <div class="hh"></div>
+        <div class="hh"></div>
+       
+        <div class="mm mm1"></div>
+        <div class="mm"></div>
+        <div class="ss ss1"></div>
+        <div class="ss"></div>
+    </div>
+
+    <div class="box">
+        <div class="search">
+            <i class="b"></i>
+            <i class="s"></i>
+
+        </div>
+        <div class="time">
+            <div class="hh"></div>
+            <div class="mm"></div>
+            <div class="ss"></div>
+        </div>
+        <div class="dot"></div>
+    </div>
+    <script>
+        var nums = [[
+            [1, 1, 1],
+            [1, 0, 1],
+            [1, 0, 1],
+            [1, 0, 1],
+            [1, 1, 1]],
+        [
+            [0, 0, 1],
+            [0, 0, 1],
+            [0, 0, 1],
+            [0, 0, 1],
+            [0, 0, 1]],
+        [
+            [1, 1, 1],
+            [0, 0, 1],
+            [1, 1, 1],
+            [1, 0, 0],
+            [1, 1, 1]],
+        [
+            [1, 1, 1],
+            [0, 0, 1],
+            [1, 1, 1],
+            [0, 0, 1],
+            [1, 1, 1]],
+        [
+            [1, 0, 1],
+            [1, 0, 1],
+            [1, 1, 1],
+            [0, 0, 1],
+            [0, 0, 1]],
+        [
+            [1, 1, 1],
+            [1, 0, 0],
+            [1, 1, 1],
+            [0, 0, 1],
+            [1, 1, 1]],
+        [
+            [1, 1, 1],
+            [1, 0, 0],
+            [1, 1, 1],
+            [1, 0, 1],
+            [1, 1, 1]],
+        [
+            [1, 1, 1],
+            [0, 0, 1],
+            [0, 0, 1],
+            [0, 0, 1],
+            [0, 0, 1]],
+        [
+            [1, 1, 1],
+            [1, 0, 1],
+            [1, 1, 1],
+            [1, 0, 1],
+            [1, 1, 1]],
+        [
+            [1, 1, 1],
+            [1, 0, 1],
+            [1, 1, 1],
+            [0, 0, 1],
+            [1, 1, 1]],
+        ];
+
+
+
+        // 将每一个数字所在的方格添加span
+
+        nums[0].forEach(function (row, rowi) {
+            row.forEach(function (item, coli) {
+
+                var node = document.createElement('h6');
+                if (item) {
+                    node.classList.add("active");
+                }
+                document.querySelectorAll('.num .ss')[1].appendChild(node);
+            });
+        });
+        nums[0].forEach(function (row, rowi) {
+            row.forEach(function (item, coli) {
+
+                var node = document.createElement('h6');
+                if (item) {
+                    node.classList.add("active");
+                }
+                document.querySelectorAll('.num .ss')[0].appendChild(node);
+            });
+        });
+        nums[0].forEach(function (row, rowi) {
+            row.forEach(function (item, coli) {
+
+                var node = document.createElement('h6');
+                if (item) {
+                    node.classList.add("active");
+                }
+                document.querySelectorAll('.num .mm')[1].appendChild(node);
+            });
+        });
+        nums[0].forEach(function (row, rowi) {
+            row.forEach(function (item, coli) {
+
+                var node = document.createElement('h6');
+                if (item) {
+                    node.classList.add("active");
+                }
+                document.querySelectorAll('.num .mm')[0].appendChild(node);
+            });
+        });
+        nums[0].forEach(function (row, rowi) {
+            row.forEach(function (item, coli) {
+
+                var node = document.createElement('h6');
+                if (item) {
+                    node.classList.add("active");
+                }
+                document.querySelectorAll('.num .hh')[1].appendChild(node);
+            });
+        });
+        nums[0].forEach(function (row, rowi) {
+            row.forEach(function (item, coli) {
+
+                var node = document.createElement('h6');
+                if (item) {
+                    node.classList.add("active");
+                }
+                document.querySelectorAll('.num .hh')[0].appendChild(node);
+            });
+        });
+        // element 是元素  n是数字
+        function showNum(element, n) {
+            var iDoms = element.querySelectorAll("h6");
+            nums[n].forEach(function (row, rowi) {
+                row.forEach(function (item, coli) {
+
+                    if (item) {
+                        iDoms[rowi * 3 + coli].classList.add("active");
+                    } else {
+                        iDoms[rowi * 3 + coli].classList.remove("active");
+                    }
+                });
+            });
+
+        }
+
+        setInterval(function () {
+            var hhDom = document.querySelectorAll(".num .hh");
+            // console.log(hours);//这里获取到类名为hour 的元素 返回的是一个节点数组 
+            var mmDom = document.querySelectorAll(".num .mm");
+            var ssDom = document.querySelectorAll(".num .ss");
+
+            var now = new Date();
+            // 取出当前的秒数 并且补全两位
+            var h = String(now.getHours()).padStart(2, '0');
+            var m = String(now.getMinutes()).padStart(2, '0');
+            var s = String(now.getSeconds()).padStart(2, '0');
+
+            hhDom.forEach(function (ele, i) {
+
+                showNum(ele, h[i]);
+            });
+            mmDom.forEach(function (ele, i) {
+                // 
+                showNum(ele, m[i]);
+            });
+
+            ssDom.forEach(function (ele, i) {
+                // 当i为0是 s[0]即为秒数的十位  s[1]即为秒数的个位
+                showNum(ele, s[i]);
+            });
+        }, 1000);
+    </script>
+
+    <script>
+
+        for (var i = 0; i < (12 * 5); i++) {
+            var node = document.createElement('i');
+            if (i % 5 === 0) {
+                node.className = "b";
+            } else { node.className = 's'; }
+            node.style.transform = 'rotate(' + i * 6 + 'deg)';
+            document.querySelector('.box .search').appendChild(node);
+        }
+        setInterval(function () {
+            var hBox = document.querySelector('.box').querySelector('.time').querySelector('.hh');
+            var mBox = document.querySelector('.box').querySelector('.time').querySelector('.mm');
+            var sBox = document.querySelector('.box').querySelector('.time').querySelector('.ss');
+            var nowtime = new Date();
+
+            var h = nowtime.getHours();
+            var m = nowtime.getMinutes();
+            var s = nowtime.getSeconds();
+            hBox.style.transform = 'rotate(' + (-180 + h * 30 + m * 0.5) + 'deg)';
+            mBox.style.transform = 'rotate(' + (-180 + m * 6 + s * 0.1) + 'deg)';
+            sBox.style.transform = 'rotate(' + (-180 + s * 6) + 'deg)';
+        }, 1000);
+    </script> 
+
+<style>
+    main{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    main p{
+        font-size: 80px;
+        margin: auto 0;
+       
+    }
+    main section{
+        display: flex;
+position: relative;
+        
+    }
+    section .tt{
+        width: 50px;
+        height: 100px;
+        background-color: rgb(49, 237, 7);
+        overflow: hidden;
+
+    }
+    section .tt span{
+        width: 100%;
+        height: 100px;
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        transition: all 1s;
+
+
+        box-sizing: border-box;
+        border: 5px solid lightgreen;
+    }
+</style>
+<main>
+    <section class="gun_hh">
+    <div class="s1 tt"><span>0</span></div>
+    <div class="s2 tt"><span>0</span></div>
+    </section>
+    <p>:</p>
+    <section class="gun_mm">
+        <div class="s1 tt"><span>0</span></div>
+        <div class="s2 tt"><span>0</span></div>
+    </section>
+    <p>:</p>
+    <section class="gun_ss">
+        <div class="s1 tt"><span>0</span></div>
+        <div class="s2 tt"><span>0</span></div>
+
+    </section>
+</main>
+<script>
+    function showNewNum(element,n) {
+// element 是显示一个数字的盒子  .s1 或者 .s2   n是新的值
+        var SpanDom=element.getElementsByTagName("span")[0];
+    //   console.log(SpanDom);
+        if (SpanDom.innerText !==n) {
+            // 如果第一个span里面文字 和 需要展示 文字不同
+            var newSpan = document.createElement("span");
+            newSpan.innerText=n;
+            element.appendChild(newSpan); //   追加新span到 .s1 / .s2 的末尾
+            SpanDom.style.marginTop='-100px'; //   第一个span 往上移动-100
+            setTimeout(function () {
+                element.removeChild(SpanDom);
+            },300);  //   过渡完成之后 删除第一个span元素
+        }
+    }
+
+      //定时器 每秒钟取一下时间
+    setInterval(function () {
+        // console.log("h");
+        var hhDom = document.querySelector(".gun_hh");
+        var mmDom = document.querySelector(".gun_mm");
+        var ssDom = document.querySelector(".gun_ss");
+        var now = new Date();
+        // 取出当前的秒数 并且补全两位
+        var h = String(now.getHours()).padStart(2,'0');
+        var m = String(now.getMinutes()).padStart(2,'0');
+        var s = String(now.getSeconds()).padStart(2,'0');
+    //  console.log(s);
+        hhDom.querySelectorAll(".tt").forEach(function (ele, i) {
+        // 每个盒子都显示一下新的值
+        // console.log("h");
+        showNewNum(ele, h[i]);
+        });
+        mmDom.querySelectorAll(".tt").forEach(function (ele, i) {
+        // 每个盒子都显示一下新的值
+        showNewNum(ele, m[i]);
+        });
+        // 遍历ss（显示秒数的两个盒子）
+        ssDom.querySelectorAll(".tt").forEach(function (ele, i) {
+        // 每个盒子都显示一下新的值
+        // console.log( ssDom.querySelectorAll(".tt"));
+        // console.log(ele,i);
+        showNewNum(ele, s[i]);
+        });
+    },1000);
+</script>
+</body>
+
+</html>

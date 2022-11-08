@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>倒计时</title>
+    <!-- <link rel="stylesheet" href="/03-弹性盒子/reset.css"> -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .orange {
+            height: 100vh;
+            background-image: url(./img/orange.jpeg);
+            /* background-color: #F5F5F5; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            /* z-index: -1; */
+
+        }
+        .orange .mask{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: rgba(255, 89, 0, 0.766);
+        }
+
+        .orange .wrapper {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            
+         
+        }
+
+        .orange .wrapper .pageLogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+            z-index: 2;
+        }
+
+        .orange .wrapper .timer {
+            color: white;
+            z-index: 2;
+        }
+
+        .orange .wrapper .timer ul.content {
+            display: flex;
+        }
+
+        .orange .wrapper .timer ul.content li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px;
+            
+        }
+
+        .orange .wrapper .timer ul.content li:nth-child(1) {
+            animation: 0.2s;
+        }
+
+        .orange .wrapper .timer ul.content li:nth-child(2) {
+            animation: 0.4s;
+        }
+
+        .orange .wrapper .timer ul.content li:nth-child(3) {
+            animation: 0.6s;
+        }
+
+        .orange .wrapper .timer ul.content li:nth-child(4) {
+            animation: 0.8s;
+        }
+
+        
+        .orange .wrapper .timer ul.content li p {
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: 0.1em;
+        }
+
+        .orange .wrapper .timer ul.content li span {
+            width: 120px;
+            height: 120px;
+            font-weight: 800;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            text-align: center;
+            letter-spacing: 2px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .orange .wrapper .timer p.text {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.3em;
+            text-align: center;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="orange">
+        <div class="mask"></div>
+        <div class="wrapper">
+            <figure class="pageLogo">
+                <img src="https://rafaelalucas.com/dailyui/14/assets/logo.svg" alt="">
+            </figure>
+             <ul class="time">
+
+                </ul>
+            <div class="timer">
+               
+                <ul class="content">
+                    <li>
+                        <p>days</p>
+                        <span id="days"></span>
+                    </li>
+                    <li>
+                        <p>hours</p>
+                        <span id="hours"></span>
+                    </li>
+                    <li>
+                        <p>minutes</p >
+                        <span id="minutes"></span>
+                    </li>
+                    <li>
+                        <p>seconds</p>
+                        <span id="seconds"></span>
+                    </li>
+                </ul>
+                <p class="text">new website coming soon</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var daysEl = document.getElementById('days');
+        var hoursEl = document.getElementById('hours');
+        var minutesEl = document.getElementById('minutes');
+        var secondsEl = document.getElementById('seconds');
+        var dao = new Date("2024-9-1 00:00:00");
+        var time=document.querySelector(".time");
+        time.innerHTML="距离"+ dao.toLocaleDateString()+"还剩"
+        setInterval(function () {
+            var n = new Date();
+            var ms = dao.getTime() - n.getTime();
+            var d = parseInt(ms / 1000 / 60 / 60 / 24);
+            var h = parseInt(ms / 1000 / 60 / 60 % 24);
+            var m = parseInt(ms / 1000 / 60 % 60);
+            var s = parseInt(ms / 1000 % 60);
+            if(d<10){d='0'+d;}
+            if(h<10){h='0'+h;}
+            if(m<10){m='0'+m;}
+            if(s<10){s='0'+s}
+            //  d=d<10?'0'+d:''+d;
+            //  h=h<10?'0'+h:''+h;
+            //  m=m<10?'0'+m:''+m;
+            //  s=s<10?'0'+s:''+s;
+            daysEl.innerText = d;
+            hoursEl.innerText = h;
+            minutesEl.innerText = m;
+            secondsEl.innerText = s;
+        }, 1000);
+
+    </script>
+</body>
+
+</html>

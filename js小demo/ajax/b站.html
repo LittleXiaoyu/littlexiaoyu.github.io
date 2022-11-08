@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>b站漫画网页</title>
+    <meta name="referrer" content="never">
+    <link rel="stylesheet" href="分类.css">
+</head>
+<body>
+    <header class="box">
+        <section class="h-top">
+            <div class="p11">
+                <div class="c11 styleId">题材</div>
+                <ul class="menu1">
+                    <li id="-1">全部</li>
+                    <li id="999">热血</li>
+                    <li id="997">古风</li>
+                    <li id="1016">玄幻</li>
+                    <li id="998">奇幻</li>
+                    <li id="1023">悬疑</li>
+                    <li id="1002">都市</li>
+                    <li id="1096">历史</li>
+                    <li id="1092">武侠仙侠</li>
+                    <li id="1088">游戏竞技</li>
+                    <li id="1081">悬疑灵异</li>
+                    <li id="1063">架空</li>
+                    <li id="1060">青春</li>
+                    <li id="1054">西幻</li>
+                    <li id="1048">现代</li>
+                    <li id="1028">正能量</li>
+                    <li id="1015">科幻</li>
+                </ul>
+            </div>
+            <div class="p22">
+                <div class="c22 areaId">地区</div>
+                <ul class="menu2">
+                    <li id="-1">全部</li>
+                    <li id="1">大陆</li>
+                    <li id="2">日本</li>
+                    <li id="6">韩国</li>
+                    <li id="5">其它</li>
+                </ul>
+            </div>
+            <div class="p33">
+                <div class="c33 isFinish">进度</div>
+                <ul class="menu3">
+                    <li id="-1">全部</li>
+                    <li id="0">连载</li>
+                    <li id="1">完结</li>
+                   
+                </ul>
+            </div>
+            <div class="p44">
+                <div class="c44 isFree">收费</div>
+                <ul class="menu4">
+                    <li id="-1">全部</li>
+                    <li id="1">免费</li>
+                    <li id="2">付费</li>
+                    <li id="3">等就免费</li>
+                </ul>
+            </div>
+            <div class="p55">
+                <div class="c55 order">排序</div>
+                <ul class="menu5">
+                    <li id="0">人气推荐</li>
+                    <li id="1">更新时间</li>
+                    <li id="2">追漫人数</li>
+                    <li id="3">上架时间</li>
+                </ul>
+            </div>
+        </section>
+        <div class="card-img">
+        </div>
+    </header>
+    <script>
+        var menu1=-1;
+        var menu2=-1;
+        var menu3=-1;
+        var menu4=-1;
+        var menu5=0;
+          function getJSON(url,callback) {
+            var xhr=new XMLHttpRequest();
+            xhr.onreadystatechange=function(){
+                if (xhr.readyState===4 && xhr.status===200 ) {
+                    callback(JSON.parse(xhr.response))
+                    // console.log(xhr);
+                }
+            };
+            xhr.open('GET',url,true);
+            xhr.send();
+        }
+        
+        function fn(res) {
+        //  console.log(res.data);
+            document.querySelector(".card-img").innerHTML = "";
+          if (res.data) {
+            res.data.forEach(function (o) {
+              var liNode =document.createElement("div");
+              liNode.classList.add('card')
+              var titleN=document.createElement("h4");
+              var imgNode=document.createElement("p");
+            //   liNode.classList.add('card');
+              titleN.innerText =o.title;
+              imgNode.style.backgroundImage=" url("+o.horizontal_cover+")";
+              liNode.appendChild(imgNode);
+              
+            //   console.log();
+            // liNode.appendChild(imgNode);
+            liNode.appendChild(titleN);
+            document.querySelector('.card-img').appendChild(liNode)
+        
+            });
+        }
+    }
+   
+    getJSON("https://apis.netstart.cn/bcomic/ClassPage?styleId=999&areaId=-1&isFinish=-1&order=0&pageNum=1&pageSize=39&isFree=-1", fn);
+    document.querySelectorAll('ul.menu1 li').forEach(function (index) {
+       
+     
+        // console.log(index);
+        // index.classList.remove('active');
+        index.onclick=function(){
+       
+            // console.log(index);
+            index.classList.remove('active');
+            if (!index.className.includes('active')) {
+                // console.log(!index.className.includes('active'));
+                index.classList.add('active')
+                
+            }
+            menu1=index.getAttribute('id')//ii -1 oo 0 pp1
+           console.log(menu1);
+           getJSON("https://apis.netstart.cn/bcomic/ClassPage?styleId="+ menu1 +"&areaId=-1&isFinish=-1&order=0&pageNum=1&pageSize=39&isFree=-1", fn)
+        }
+        
+      });
+      document.querySelectorAll('ul.menu2 li').forEach(function (index) {
+        // console.log(index);
+       
+        index.onclick=function(){
+            // console.log(index);
+            
+            menu2=index.getAttribute('id')
+           console.log(menu2);
+           getJSON("https://apis.netstart.cn/bcomic/ClassPage?styleId=999&areaId="+ menu2 +"&isFinish=-1&order=0&pageNum=1&pageSize=39&isFree=-1", fn)
+        }
+      });
+      document.querySelectorAll('ul.menu3 li').forEach(function (index) {
+        // console.log(index);
+       
+        index.onclick=function(){
+            // console.log(index);
+            
+           menu3=index.getAttribute('id')
+           console.log(menu3);
+           getJSON("https://apis.netstart.cn/bcomic/ClassPage?styleId=999&areaId=-1&isFinish="+menu3+"&order=0&pageNum=1&pageSize=39&isFree=-1", fn)
+        }
+      });
+      document.querySelectorAll('ul.menu4 li').forEach(function (index) {
+        // console.log(index);
+      
+        index.onclick=function(){
+            // console.log(index);
+            
+            
+            menu4=index.getAttribute('id')
+           console.log(menu4);
+           getJSON("https://apis.netstart.cn/bcomic/ClassPage?styleId=999&areaId=-1&isFinish=-1&order=0&pageNum=1&pageSize=39&isFree="+ menu4 +"", fn)
+
+        }
+       
+      });
+      document.querySelectorAll('ul.menu5 li').forEach(function (index) {
+        // console.log(index);
+       
+        index.onclick=function(){
+            // console.log(index);
+            
+            menu5=index.getAttribute('id')
+           console.log(menu5);
+           getJSON("https://apis.netstart.cn/bcomic/ClassPage?styleId=999&areaId=-1&isFinish=-1&order="+menu5+"&pageNum=1&pageSize=39&isFree=-1", fn)
+        }
+      });
+
+    </script>
+</body>
+</html>

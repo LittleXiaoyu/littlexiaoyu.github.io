@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>别踩白块</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .stage{
+            width: 360px;
+            height: 600px;
+            background-color: rgb(186, 183, 183);
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+        .stage .main{
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: relative;
+          /* pointer-events: none; */
+        }
+        .stage .main p{
+            width: 90px;
+            height: 100px;
+            background-color: brown;
+            top: 0;
+            left: 0;
+            position: absolute;
+            border-radius: 5px;
+        }
+        /* 每个块块 */
+        .stage .main i{
+            width: 90px;
+            height: 100px;
+            box-sizing: border-box;
+            background-color: black;
+            top: 0;
+            left: 0;
+            border-radius: 5px;
+            position: absolute;
+        }
+        
+        /* 点击之后变成灰色 */
+        .stage .main i.grey{
+            background-color: grey;
+        }
+        .stage .main .level{
+            top: 0;
+            left: 50%;
+            position: absolute;
+            z-index: 9999;
+            margin-left: -20px;
+        }
+        .stage .main .level span{
+            width: 40px;
+            height: 40px;
+            /* span是行内块 */
+            display: block;
+            /* background-color: aquamarine; */
+            pointer-events: none;
+            text-align: center;
+            font-size: 36px;
+            color: aquamarine;
+        }
+        .stage .mack{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        .stage .mack .over{
+            width: 300px;
+            height: 200px;
+            background-color: rgba(38, 39, 39, 0.482);
+            position: absolute;
+            top: calc( 50% - 100px);
+            left:calc( 50% - 150px);
+            border-radius: 5px;
+          
+            line-height: 200px;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(91, 254, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div class="main">
+            <div class="level">
+  <!-- <span></span> -->
+                <span>0</span>
+            </div>
+        </div>
+       <div class="mack"> <div class="over"></div></div>
+    </div>
+    <script>
+        var mainEl=document.querySelector('.stage .main');
+        var mackEl=document.querySelector('.stage .mack');
+        var overEl=document.querySelector('.stage .mack .over');
+        var spanEl=document.querySelector('.stage .main .level span');
+     
+        var dots=[];
+        var num=0;
+        var speed=0.01;
+        mainEl.onclick=function(){
+            clearInterval(stop);
+            mackEl.style. display='block';
+            overEl.innerHTML='游戏结束'+"\n"+'获得'+num+'分';
+        //    var node= document.createElement('p');
+        //  var mainX= parseInt(event.offsetTX%90);
+        // var mainY=parseInt(event.offsetTY%100);
+           
+        // // console.log(event);
+        //    node.style.left=mainX*90+'px';
+        //    node.style.top=mainY*100+'px';
+        //    mainEl.appendChild(node);
+        }
+        function Dot(y) {
+            this.x=Math.floor(Math.random()*4);
+            this.y=y;
+            //创建新的i
+            this.node=document.createElement('i');
+        //    console.log(this);
+            //添加到视图
+            this.upView();
+            mainEl.appendChild(this.node);
+            var _this=this;//Dot{...}
+            //点击i
+            this.node.onclick=function(){
+                // console.log(this);<i  ></i>
+                var firstPlay=dots.filter(function (dot) {
+                    return !dot.grey;//node指的是<i>
+                })[0];
+                if (this.isSameNode(firstPlay.node)) {
+
+                    _this.node.classList.add('grey');
+                    _this.grey = true;
+                    event.stopPropagation();//停止冒泡
+                    num++;
+                    spanEl.innerHTML=num;
+                    if (num%10==0) {
+                        speed=0.01
+                    }
+                }
+            }
+        }
+        Dot.prototype.move=function(){
+            this.y+=speed;
+        }
+        Dot.prototype.upView=function(){
+            this.node.style.left=this.x*90+'px';
+            this.node.style.top=this.y*100+'px';
+        }
+
+        //黑块初始化4个
+        function init() {
+            for (var i = 3; i >=0; i--) {
+               var d=new Dot(i-1);
+               dots.push(d);
+            }
+        }
+        init();
+   var stop= setInterval(function () {
+        dots.forEach(function (ele) {
+            ele.move();
+            ele.upView();
+        })
+        if (dots[dots.length-1].y>=0) {
+                var d=new Dot(-1);
+                dots.push(d);
+            }
+            //没点击的黑块 碰到底边游戏停止
+            var firstUnPlayed=dots.filter(function (dot) {
+            return !dot.grey;
+        })[0];
+        if (firstUnPlayed&&(firstUnPlayed.y)*100>=500) {
+            //判断碰底
+            clearInterval(stop);
+            mackEl.style. display='block';
+            overEl.innerHTML='游戏结束'+"\n"+'获得'+num+'分'
+        }
+        //删除点击过的黑块
+        var firstPlayed=dots.filter(function (dot) {
+            return dot.grey;
+        })[0];
+        if (firstPlayed&&firstPlayed.y*100>600) {
+            mainEl.removeChild(firstPlayed.node);
+            dots.splice(dots.indexOf(firstPlayed),1);
+        }
+           
+    },10);
+
+    </script>
+</body>
+</html>

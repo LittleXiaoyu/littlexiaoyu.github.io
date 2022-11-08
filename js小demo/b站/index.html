@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>b站动画</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .stage {
+            width: 480px;
+            height: 270px;
+            margin: 40px auto;
+            overflow: hidden;
+            position: relative;
+            background-repeat: no-repeat;
+        }
+
+        .stage .img {
+            background-image: url(./b_img/1.jpg);
+            height: 270px;
+            background-position: 0px 0px;
+        }
+
+        .stage .img .over {
+            width: 480px;
+            height: 270px;
+            background-image: url(./b_img/eee63cd.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .stage .img .active {
+            opacity: 0;
+        }
+
+        .stage .danmus {
+            height: 70px;
+            position: absolute;
+            top: 10px;
+            left: 480px;
+
+        }
+
+        .stage .danmus .danmu {
+            display: flex;
+        }
+
+        .stage .danmus .danmu2 {
+            display: flex;
+            position: absolute;
+        }
+
+        .stage .danmus .danmu {
+            position: relative;
+        }
+
+        .stage .danmus .danmu P {
+            font-size: 12px;
+            white-space: nowrap;
+            margin-right: 15px;
+            width: 100%;
+            color: white;
+            left: 0;
+        }
+
+        .stage .danmus .danmu2 P {
+            font-size: 12px;
+            white-space: nowrap;
+            margin-right: 15px;
+            width: 100%;
+            color: white;
+            left: 0;
+        }
+
+        .stage .time {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-left: 10px;
+            color: white;
+            opacity: 0;
+        }
+
+        .stage .l {
+            opacity: 1;
+        }
+
+        .stage .tt {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 10px;
+            border: 1px solid black;
+            /* border-radius: 20px; */
+            box-sizing: border-box;
+            background-color: black;
+            opacity: 0;
+        }
+
+        .stage .xx {
+            opacity: 1;
+        }
+
+        .stage .tt .cc {
+            /* width: 20px; */
+            height: 100%;
+            border-radius: 20px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stage">
+        <div class="tt">
+            <div class="cc"></div>
+        </div>
+        <div class="img">
+            <div class="over"></div>
+        </div>
+        <div class="time">22:43</div>
+        <div class="danmus">
+            <div class="danmu"></div>
+            <div class="danmu2"></div>
+        </div>
+    </div>
+
+    <script>
+        var pvideo = {
+            duration: 1303,//视频时间
+            img_x_len: 10,
+            img_y_len: 10,
+            img_x_size: 480,
+            img_y_size: 270,
+            image: [
+                "//bimp.hdslb.com/videoshotpvhdboss/486142478_dc4dcb-0001.jpg",
+                "//bimp.hdslb.com/videoshotpvhdboss/486142478_dc4dcb-0002.jpg",
+            ],
+            index: [
+                0, 8, 14, 20, 25, 31, 39, 50, 61, 67, 73, 80, 87, 93, 104, 116, 126, 132, 138, 144, 152, 159, 170, 177, 186,
+                196, 207, 215, 224, 231, 238, 244, 249, 255, 260, 265, 271, 278, 283, 290, 297, 303, 311, 319, 330, 335, 350,
+                360, 365, 372, 383, 390, 401, 406, 411, 421, 428, 434, 444, 450, 457, 467, 472, 481, 487, 497, 502, 514, 520,
+                534, 542, 547, 555, 562, 568, 575, 581, 587, 592, 598, 605, 610, 615, 621, 633, 642, 650, 658, 668, 677, 690,
+                696, 702, 709, 715, 720, 733, 740, 746, 751, 759, 767, 776, 782, 790, 798, 804, 814, 826, 833, 840, 850, 856,
+                863, 872, 878, 886, 896, 903, 911, 918, 929, 937, 948, 953, 959, 965, 973, 979, 985, 994, 1001, 1015, 1022,
+                1028, 1034, 1040, 1047, 1059, 1064, 1071, 1077, 1084, 1090, 1099, 1105, 1111, 1121, 1130, 1139, 1150, 1156,
+                1162, 1171, 1178, 1184, 1191, 1197, 1203, 1210, 1216, 1221, 1228, 1233, 1242, 1250, 1260, 1272, 1282, 1292,
+                1297,
+            ],
+        };
+        var dm = [
+            "章鱼哥还是没有胜过强风暴雨(doge)",
+            "日本裁判",
+            "日本裁判",
+            "海绵宝宝笑死我了",
+            "黑人小哥",
+            "堡垒之夜",
+            "最喜欢的一集",
+            "最喜欢的一集",
+            "喜欢",
+            "我怎么觉得派大星这个配音我在神奇宝贝里听过",
+            "我看见你了",
+            "但凡章鱼哥早点回去都不至于这样",
+            "这……这我还真有可能“模仿”",
+            "为什么非要执着于台配或者央配呢",
+            "派总依旧稳定输出",
+            "包租公～",
+            "为什么台配的海绵宝宝跟低能儿似的",
+            "井字游戏，其实可以先手必胜的",
+            "我小时候就看的台配",
+            "终于找到了",
+        ];
+        dm.forEach(function (ele, i) {
+            var node = document.createElement('p');
+            if (i % 2 == 0) {
+                node.innerText = ele;
+                $('.stage .danmus .danmu')[0].appendChild(node)
+            } else {
+                node.innerText = ele;
+                $('.stage .danmus .danmu2')[0].appendChild(node)
+            }
+        })
+        function showdm(node, left, speed) {
+            this.node = document.querySelector(node);
+            this.left = left;
+            this.speed = speed;
+        }
+        showdm.prototype.reightEl = function () {
+            if (this.left <= -1800) {
+                this.left = 0
+            }
+            this.left -= this.speed;
+            this.node.style.left = this.left + 'px';
+            return this;
+
+        }
+        // pointX是鼠标在盒子的水平距离
+        var c = pvideo.index.length / pvideo.img_x_size
+        function changeImg(pointX) {
+            var imgIndex = Math.floor(c * pointX)//0~170
+            // console.log(imgIndex);
+            if (imgIndex < 100) {
+                // x 是取x轴方向 图片的位置 比如第几列
+                var x = imgIndex % 10
+                // y是图片y轴的位置  比如第几行
+                var y = parseInt(imgIndex / 10)
+                $('.stage .img').css({
+                    background: 'url(./b_img/1.jpg) no-repeat',
+                    backgroundPosition: -x * 480 + 'px ' + y * -270 + 'px'
+                })
+            } else if (imgIndex <= pvideo.index.length) {
+                var x = imgIndex % 10
+                var y = parseInt((imgIndex - 100) / 10)
+                $('.stage .img').css({
+                    background: 'url(./b_img/2.jpg) no-repeat',
+                    backgroundPosition: -x * 480 + 'px ' + y * -270 + 'px'
+                })
+            }
+        }
+        var pp = new showdm('.stage .danmus .danmu', 100, 0.6)
+        var bb = new showdm('.stage .danmus .danmu2', 100, 1)
+
+        $(".stage")[0].onmousemove = function () {
+            changeImg(event.offsetX);
+            $('.stage .img .over')[0].classList.add('active')
+            var hh = event.offsetX;
+            $(".stage .tt .cc").css({ width: hh })
+            
+        }
+        //鼠标进入
+        $('.stage')[0].onmouseover = function () {
+            $(".stage .tt")[0].classList.add('xx')
+            document.querySelector(".stage .time").classList.add('l')
+          
+        }
+        //鼠标移出
+        $('.stage')[0].onmouseout = function () {
+            $(".stage .tt").removeClass('xx')
+            $(".stage .time")[0].classList.remove('l')
+           
+        }
+        var stop= setInterval(function () {
+            pp.reightEl();
+            bb.reightEl();
+        }, 16)
+    </script>
+</body>
+
+</html>

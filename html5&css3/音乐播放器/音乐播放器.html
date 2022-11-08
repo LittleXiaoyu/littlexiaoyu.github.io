@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./play.css">
+</head>
+
+<body>
+    <audio loop></audio>
+    <div class="player">
+        <div class="player-bor">
+            <div class="player-album">
+                <div class="player-img"></div>
+            </div>
+            <div class="player-controls">
+                <div class="player-prev">
+                    <i class="fa fa-backward"></i>
+                </div>
+                <div class="player-play">
+                    <i class="fa fa-play"></i>
+
+                </div>
+                <div class="player-next">
+                    <i class="fa fa-forward"></i>
+                </div>
+            </div>
+        </div>
+        <div class="player-timeline">
+            <p>Khalid</p>
+            <p class="word">Location</p>
+            <label>
+                <input type="range" name="progress" min="0" max="100" step="0.01">
+                <div class="jindu">
+                    <div class="mask"></div>
+                </div>
+            </label>
+
+        </div>
+    </div>
+    <script>
+        var played = document.querySelector(".player-play");
+        var audio = document.querySelector("audio");
+        var progress = document.querySelector("input[name=progress]");
+        var mask = document.querySelector(".jindu .mask");
+        var flat = false;
+        var arr = ["小跳蛙", "akon", "gaobai", "chain", "漫长的告白", "米兰的小铁匠", "这一生关于你的风景", "Okey Dokey"];
+        var cur = 0;
+        played.onclick = function () {
+            document.querySelector(".player-play i").classList.toggle("fa-play");
+            document.querySelector(".player-play i").classList.toggle("fa-pause");
+            document.querySelector(".player-timeline").classList.toggle("etf");
+            document.querySelector(" .player-album").classList.toggle("up");
+            document.querySelector(".player-img").classList.toggle("big");
+            var tt;
+            if (flat) {
+                document.querySelector(" .player-album").style["animation-play-state"] = 'paused';
+                flat = false;
+                // audio.src=arr[cur];
+                document.querySelector('input').value = audio.currentTime / audio.duration;
+                mask.style.width = (audio.currentTime / audio.duration) * 100 + "%";
+                //    tt= audio.currentTime/audio.duration;
+                audio.pause()
+
+            } else {
+
+                // document.querySelector('input').value = audio.currentTime / audio.duration
+                // //  document.querySelector('input').value=tt;
+                // mask.style.width = (audio.currentTime / audio.duration) * 100 + "%";
+                document.querySelector(" .player-album").style["animation-play-state"] = 'running';
+                flat = true;
+                audio.src = "./mp3/" + arr[cur] + ".mp3";
+
+
+                audio.ontimeupdate = function () {
+                    // console.log(this.currentTime);
+                    mask.style.width = (this.currentTime / this.duration) * 100 + "%";
+                };
+                progress.oninput = function () {
+                    console.log(this.value);
+                    mask.style.width = this.value + "%";
+                    audio.currentTime = (this.value * audio.duration) / 100;
+                };
+                audio.play()
+            }
+
+        }
+        document.querySelector(".player-next").onclick = function () {
+            cur++;
+            if (cur >= arr.length) {
+                cur = 0;
+            }
+            audio.src = "./" + arr[cur] + ".mp3";
+            audio.play();
+            document.querySelector(".word").innerHTML = arr[cur];
+            // console.log(cur,arr[cur],audio);
+        }
+        document.querySelector(".player-prev").onclick = function () {
+            cur--;
+            if (cur < 0) {
+                cur = arr.length - 1;
+            }
+            audio.src = "./" + arr[cur] + ".mp3";
+            document.querySelector(".word").innerHTML = arr[cur];
+            audio.play()
+        }
+
+
+    </script>
+</body>
+
+</html>
