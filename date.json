@@ -125,15 +125,17 @@
         }
     ],
     "vue":[
+      
         {
             "url":"https://littlexiaoyu.github.io/vue1/dist/index.html",
-            "pic":"./pic-img/小米商城pic.png",
-            "title":"商城"
+            "pic":"./pic-img/网易音乐pic.png",
+            "title":"音乐"
         },
         {
             "url":"https://littlexiaoyu.github.io/vue2/dist/index.html",
-            "pic":"./pic-img/网易音乐pic.png",
-            "title":"音乐"
+            "pic":"./pic-img/小米商城pic.png",
+            "title":"商城"
         }
+    
     ]
 } 
