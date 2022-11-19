@@ -135,6 +135,11 @@
             "url":"https://littlexiaoyu.github.io/vue2/dist/index.html",
             "pic":"./pic-img/小米商城pic.png",
             "title":"商城"
+        },
+        {
+            "url":"https://littlexiaoyu.github.io/h5/index.html",
+            "pic":"./pic-img/uniapp.png",
+            "title":"书城阅读(uniapp)"
         }
     
     ]
